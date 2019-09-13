@@ -18,6 +18,8 @@ public class Text {
     //     System.out.println("num = " + num);
     // }
 
+
+
     //3.2. 求出0～999之间的所有“水仙花数”并输出。
     //“水仙花数”是指一个三位数，其各位数字的立方和确好等于该数本身，
     //如；153＝1＋5＋3?，则153是一个“水仙花数”。
@@ -74,6 +76,7 @@ public class Text {
     // }
 
 
+
     //3.4 写一个函数返回参数二进制中 1 的个数 
     //比如： 15 0000 1111 4 个 1 
     // public static void main(String[] args) {
@@ -120,12 +123,12 @@ public class Text {
     // }
 
 
+
     //3.7. 完成猜数字游戏 
     // public static void main(String[] args) {
     //     Scanner sc = new Scanner(System.in);//Scanner输入
     //     Random random = new Random();//默认随机种子是系统时间，可在（）内进行自己设置
     //     int toGuss = random.nextInt(100) + 1;
-
     //     while (true) {
     //         System.out.println("请输入您猜的数（0-100）：");
     //         int num = sc.nextInt();
