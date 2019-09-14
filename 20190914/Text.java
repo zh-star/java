@@ -56,5 +56,16 @@ public class Text {
 
 
 
+    //利用方法交换两个变量
+    public static void main(String[] args) {
+        int[] arr = {2, 3};
+        swap(arr);
+        System.out.println("arr[0] = " + arr[0] + "  arr[1] = " + arr[1]);
+    }
     
+    public static void swap (int[] arr ) {
+        int temp = arr[0];
+        arr[0] = arr[1];
+        arr[1] = temp;
+    }
 }
