@@ -14,14 +14,14 @@ public class Text {
 
         //方法二：
         //阶乘和  将每次求得值相加
-        // for ( j = 1; j <= num; j++) {
-        //     //分别求每个数的阶乘   1！；2！；3！；4！；5！
-        //     temp = 1;//每次求阶乘前，都要让temp==1
-        //     for (i = 1; i <= j; i++) {
-        //         temp *= i;
-        //     }
-        //     sum = sum + temp;
-        // }
+        for ( j = 1; j <= num; j++) {
+            //分别求每个数的阶乘   1！；2！；3！；4！；5！
+            temp = 1;//每次求阶乘前，都要让temp==1
+            for (i = 1; i <= j; i++) {
+                temp *= i;
+            }
+            sum = sum + temp;
+        }
 
         System.out.println(sum);
     }
