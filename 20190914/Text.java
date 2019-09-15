@@ -1,3 +1,4 @@
+
 public class Text {
     // public static void main(String[] args) {
     //     //计算 1! + 2! + 3! + 4! + 5!
@@ -57,15 +58,44 @@ public class Text {
 
 
     //利用方法交换两个变量
-    public static void main(String[] args) {
-        int[] arr = {2, 3};
-        swap(arr);
-        System.out.println("arr[0] = " + arr[0] + "  arr[1] = " + arr[1]);
-    }
+    // public static void main(String[] args) {
+    //     int[] arr = {2, 3};
+    //     swap(arr);
+    //     System.out.println("arr[0] = " + arr[0] + "  arr[1] = " + arr[1]);
+    // }
     
-    public static void swap (int[] arr ) {
-        int temp = arr[0];
-        arr[0] = arr[1];
-        arr[1] = temp;
-    }
+    // public static void swap (int[] arr ) {
+    //     int temp = arr[0];
+    //     arr[0] = arr[1];
+    //     arr[1] = temp;
+    // }
+
+    
+
+    //按顺序打印一个数字的每一位(例如 1234 打印出 1 2 3 4)
+        // public static void main(String[] args) {
+        //     print(1234);
+        // }
+        // public static void print(int num) {
+        //     if (num > 9) {
+        //         print (num / 10);
+        //     }
+        //     System.out.print(num % 10 + " ");
+        // }
+
+
+        //递归求 1 + 2 + 3 + ... + 10
+        public static void main(String[] args) {
+            int ret=sum(100);
+            System.out.println(ret);
+        }
+
+        public static int sum (int num) {
+            if (num == 1) {
+                return 1;
+            }
+            return   num + sum(num-1);             
+
+        }
+
 }
