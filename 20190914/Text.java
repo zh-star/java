@@ -97,9 +97,4 @@ public class Text {
             return   num + sum(num-1);             
 
         }
-
-
-
-        
-
 }
