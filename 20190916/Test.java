@@ -41,7 +41,7 @@ public class Test {
     //放到另一个柱子上，也要按此顺序放置
     
     public static void main(String[] args) {
-        hanNuota(5,'A','B','C');
+        hanNuota(2,'A','B','C');
     }
     public static void hanNuota(int n, char from, char in, char to) {
         if (n == 1) {
