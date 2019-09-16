@@ -37,10 +37,20 @@ public class Test {
 
 
     //5.2实现代码: 求解汉诺塔问题(提示, 使用递归) 
+    //假设每次64个黄金圆盘为数字64到1的一个数组
+    //放到另一个柱子上，也要按此顺序放置
+    
     public static void main(String[] args) {
-
-
-
+        hanNuota(5,'A','B','C');
+    }
+    public static void hanNuota(int n, char from, char in, char to) {
+        if (n == 1) {
+            System.out.println("把第一个从" + from + "移动到" + to);
+        }else {
+            hanNuota(n-1, from, to, in);
+            System.out.println("把第" + n +"个从" + from + "移动到" + to);
+            hanNuota(n-1, in, from, to);
+        }
     }
 
 
