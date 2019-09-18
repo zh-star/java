@@ -29,6 +29,7 @@ public class Test {
     //打印数组内容（使用方法）
     public static void main(String[] args) {
         int[] arr = new int[] {1,2,3,4,5};
+        transForm(arr);
         printArray(arr);
     }
     public static void printArray(int[] a) {
@@ -36,6 +37,11 @@ public class Test {
             System.out.println(a[i]);
         }
     }
+    public static void transForm(int[] a) {
+        for(int i = 0; i < a.length; i++) {
+            a[i] = a [i] * 2;
+        }
+    }
 
-    
+
 }
