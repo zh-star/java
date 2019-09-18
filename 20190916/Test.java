@@ -62,28 +62,15 @@ public class Test {
     //f(4) = 5 = 22, 112,211,121,  1111;
     //f(5) = 8 = 221,212,122, 1112,1121,1211,2111, 11111
     public static void main(String[] args) {
-        int ret = jumpFrog(3);
+        int ret = jumpFrog(5);
         System.out.println(ret);
     }
-
-    // public static int jumpFrog(int n) {
-    //     if (n == 1) {
-    //         return 1;
-    //     }else if (n == 2) {
-    //         return 2;
-    //     }
-    //     return jumpFrog(n - 1) + jumpFrog(n - 2);
-    // }
     public static int jumpFrog(int n) {
-        int ret = 0;
-        if(n == 1) {
+        if (n == 1) {
             return 1;
-        }else if(n == 3){
-            return 3;
+        }else if (n == 2) {
+            return 2;
         }
-        for(int i = 2; i <= n; i++ ) {
-            ret = 2*n - 2;
-        }
-        return ret;
+        return jumpFrog(n - 1) + jumpFrog(n - 2);
     }
 } 
