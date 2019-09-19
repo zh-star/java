@@ -125,17 +125,64 @@ public class Test {
 
 
     //给定一个数组, 再给定一个元素, 找出该元素在数组中的位置
+    // public static void main(String[] args) {
+    //     int[] arr = {1,2,31,42,23,12};
+    //     int ret = find(arr,23);
+    //     System.out.println(ret);
+    // }
+    // public static int find(int[] a,int n) {        
+    //     for(int i = 0; i < a.length; i++) {
+    //         if(n == a[i]) {
+    //             return i + 1;
+    //         }
+    //     }
+    //     return -1;
+    // }
+
+
+
+    //给定一个整型数组, 判断是否该数组是有序的(升序）
+    // public static void main(String[] args) {
+    //     int[] arr = {1,2,3,4,5,6};
+    //     boolean ret = isSorted(arr);
+    //     System.out.println(ret);
+    // }
+    // public static boolean isSorted(int[] a) {
+    //     for(int i = 0; i < a.length -1; i++) {
+    //         //当是升序的时候，a.length会越界，
+    //         //因为最后一次比较晚a[5]与a[4]时，循环还会再进一次去判断a[5]和a[6],则出现访问越界，
+    //         //故要-1，当到达i= 4即a[5]与a[4]比较完时，不在进入循环
+    //         if(a[i + 1] < a[i]) {
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
+
+
+    //给定一个整型数组, 将所有的偶数放在前半部分, 将所有的奇数放在数组后半部分
     public static void main(String[] args) {
-        int[] arr = {1,2,31,42,23,12};
-        int ret = find(arr,31);
-        System.out.println(ret);
+        int[] arr = {1,2,3,4,5};
+        int[] ret = transForm(arr);
+        System.out.println(Arrays.toString(ret));
     }
-    public static int find(int[] a,int n) {        
-        for(int i = 0; i < a.length; i++) {
-            if(n == a[i]) {
-                return i + 1;
-            }
+    public static int[] transForm(int[] a) {
+        int left = 0;
+        int right = a.length-1;
+        int temp = 0;
+        while(left < right) {
+            if(a[left] % 2 == 0) {
+                left ++;
+            }else if(a[right] % 2 == 1) {
+                right --;
+            }else {
+                temp = a[left];
+                a[left] = a[right];
+                a[right] = temp; 
+            }          
         }
-        return -1;
+        return a;
     }
+
+
 }
