@@ -74,16 +74,68 @@ public class Test {
 
 
     //数组的拷贝函数
+    // public static void main(String[] args) {
+    //     int[] arr = {1,2,3,4,5};
+    //     int[] ret = CopyOf(arr);
+    //     System.out.println(Arrays.toString(ret));
+    // }
+    // public static int[] CopyOf(int[] a) {
+    //     int[] ret = new int[a.length];
+    //     for(int i = 0; i <= a.length; i++) {
+    //         ret[i] = a[i];
+    //     }
+    //     return ret;
+    // }
+
+
+
+    //给定一个整型数组, 找到其中的大元素 (找小元素同理)
+    // public static void main(String[] args) {
+    //     int[] arr = {1,7,3,22,5};
+    //     int ret = max(arr);
+    //     System.out.println(ret);
+
+    // }
+    // public static int max(int[] a) {
+    //     int max = a[0];
+    //     int temp = 0;
+    //     for(int i = 1; i < a.length; i++) {
+    //         if(a[i] > max) {
+    //             max = a[i];
+    //         }
+    //     }
+    //     return max;
+    // }
+
+
+
+    //给定一个整型数组, 求平均值
+    // public static void main(String[] args) {
+    //     int[] arr = {1,2,3,4,5};
+    //     double ret = avg(arr);
+    //     System.out.println(ret);
+    // }
+    // public static double avg(int[] a) {
+    //     double sum = 0;
+    //     for(int i = 0; i < a.length; i++) {
+    //         sum += a[i];
+    //     }
+    //     return sum/a.length;
+    // }
+
+
+    //给定一个数组, 再给定一个元素, 找出该元素在数组中的位置
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5};
-        int[] ret = CopyOf(arr);
-        System.out.println(Arrays.toString(ret));
+        int[] arr = {1,2,31,42,23,12};
+        int ret = find(arr,31);
+        System.out.println(ret);
     }
-    public static int[] CopyOf(int[] a) {
-        int[] ret = new int[a.length];
-        for(int i = 0; i <= a.length; i++) {
-            ret[i] = a[i];
+    public static int find(int[] a,int n) {        
+        for(int i = 0; i < a.length; i++) {
+            if(n == a[i]) {
+                return i + 1;
+            }
         }
-        return ret;
+        return -1;
     }
 }
