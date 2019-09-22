@@ -1,9 +1,10 @@
 public class Test {
     public static void main(String[] args) {
-        System.out.println("hehe");
-        Person person = new Person();
+        //类的实例化
+        Person xiaohua = new Person();
+        //类是一个
         System.out.println(person.name);
-        person.name = "xiaohau";
+        xiaohua.name = "xiaohau";
         System.out.println(person.name);
         person.eat();
         person.sleep();
