@@ -42,15 +42,13 @@ public class Text {
             }  
            // System.out.println(count);       
             //求余进行判断
-            int a = i % 10;
-            int b = (i / 10) % 10;
-            int c = (i / 100);
-            if (i == Math.pow(a,count) + Math.pow(b, count) + Math.pow(c, count)) {
-                System.out.print(i + " ");
-            }      
+            // int a = i % 10;
+            // int b = (i / 10) % 10;
+            // int c = (i / 100);
+            // if (i == Math.pow(a,count) + Math.pow(b, count) + Math.pow(c, count)) {
+            //     System.out.print(i + " ");
+            // }      
             
-            
-
         }
     }
 
