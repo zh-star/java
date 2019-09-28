@@ -109,6 +109,33 @@ public class LinkedList {
         LinkedNode nodeToRemove = prv.next;
         prv.next= nodeToRemove.next;
     }
+
+    //删除一个元素出现的所有位置
+    public void removeAllKey(int toRemove){
+        if(this.head == null){
+            return;
+        }
+        //先处理后续节点，在处理头节点
+        LinkedNode prv = this.head;
+        LinkedNode cur = head.next;
+        while(cur != null){
+            if(cur.date == toRemove){
+                //删除此元素
+                prv.next = cur.next;
+                cur = prv.next;
+            }else {
+                //不用删除此元素
+                prv = cur;
+                cur = cur.next;
+            }
+        }
+        //头节点处理
+        if(this.head.date == toRemove){
+            this.head = this.head.next;
+        }
+        return;
+    }
+
     private LinkedNode searchPrv(int toRemove){
         if(this.head == null){
             return null;

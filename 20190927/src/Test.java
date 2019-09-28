@@ -7,6 +7,7 @@ public class Test {
         testAddIndex();
         testContains();
         testRemove();
+        testRemoveAllKey();
     }
 
     public static void testAddFist(){
@@ -60,6 +61,19 @@ public class Test {
         node.addLast(4);
         node.display();
         node.remove(2);
+        node.display();
+    }
+
+    public static void testRemoveAllKey() {
+        System.out.println("测试");
+        LinkedList node = new LinkedList();
+        node.addLast(3);
+        node.addLast(3);
+        node.addLast(3);
+        node.addLast(4);
+        node.display();
+
+        node.removeAllKey(3);
         node.display();
     }
 }
