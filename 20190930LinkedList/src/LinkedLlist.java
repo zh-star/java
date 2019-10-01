@@ -205,4 +205,66 @@ public class LinkedLlist {
         smallTail.next = bigHead.next;
         return smallHead.next;
     }
+
+    //7.链表的回文结构
+    /*
+    * 对于一个链表，请设计一个时间复杂度为O(n),额外空间复杂度为O(1)的算法，判断其是否为回文结构。
+    * 给定一个链表的头指针A，请返回一个bool值，代表其是否为回文结构。保证链表长度小于等于900。
+    * 示例：
+    *  1->2->2->1
+    *   返回：true
+    *
+    * 思考：找到链表的中间位置结点，把之后的进行反转，再与前半部分进行比较
+    * */
+    public class PalindromeList {
+        public boolean chkPalindrome(ListNode A) {
+            // write code here
+            //合法性校验
+            if(A == null) {//空链表
+                return true;
+            }
+            if(A.next == null){//只有一个元素
+                return true;
+            }
+            //找到链表的中间位置
+            int steps = size(A)/2;
+            ListNode B = A;
+            for(int i = 0; i < steps; i++) {
+                B = B.next;
+            }
+            //循环结束，到达中间结点开始反转中间结点之后的链表
+            ListNode prev = null;
+            ListNode cur = B;
+            while(cur != null) {
+                ListNode next = cur.next;
+                if(next == null) {
+                    B = cur;
+                }
+                cur.next = prev;
+                //更新prev  cur
+                prev = cur;
+                cur = next;
+            }
+            //判断是否相同
+            while(B != null) {
+                if(A.val != B.val) {
+                    return false;
+                }
+                A = A.next;
+                B = B.next;
+            }
+            return true;
+        }
+        //求链表大小
+        public int size(ListNode head) {
+            int size = 0;
+            for(ListNode cur = head; cur != null; cur = cur.next) {
+                size++;
+            }
+            return size;
+        }
+    }
+
+    //8.
+
 }
