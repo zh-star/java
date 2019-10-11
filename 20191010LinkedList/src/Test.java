@@ -6,6 +6,6 @@ public class Test {
         node.addFist(2);
         node.addFist(1);
  
-        node.addTwoNumbers()
+
     }
 }

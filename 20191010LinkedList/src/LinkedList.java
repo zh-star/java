@@ -76,4 +76,36 @@ public class LinkedList {
         }
         return newHead.next;
     }
+
+    //2.给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
+    //    示例 2:
+    //    输入: 1->1->2->3->3
+    //    输出: 1->2->3
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     *     int val;
+     *     ListNode next;
+     *     ListNode(int x) { val = x; }
+     * }
+     */
+    class Solution {
+        public ListNode deleteDuplicates(ListNode head) {
+            //合法性校验
+            if(head == null || head.next == null) {
+                return head;
+            }
+            //1.遍历链表，找到相等元素删除，不相等元素保留
+            ListNode cur = head;
+            while(cur.next != null) {
+                if(cur.val == cur.next.val) {
+                    //删除
+                    cur.next = cur.next.next;//跳过一个元素
+                }else{
+                    cur = cur.next;
+                }
+            }
+            return head;
+        }
+    }
 }
