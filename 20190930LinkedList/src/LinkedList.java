@@ -1,11 +1,4 @@
-class ListNode {
-    int val;
-    ListNode next = null;
 
-    ListNode(int val) {
-        this.val = val;
-    }
-}
 public class LinkedList {
         private ListNode head = new ListNode(-1);
 
