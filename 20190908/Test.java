@@ -79,4 +79,23 @@ public class Test{
             System.out.println();
         }
     }
+
+    //6. 求两个正整数的最大公约数 (两个数的相同除数的最大值)
+    public static void main(String[] args) {
+        Scanner sca = new Scanner(System.in);
+        System.out.print("请输入其中一个正整数:");
+        int num1 = sca.nextInt();
+        System.out.print("请输入其中另一个正整数:");
+        int num2 = sca.nextInt();
+        int ret = num1 > num2 ? num1 : num2;
+        int max = 0;
+        for(int i = 1; i < ret; i++) {
+            if(num1 % i == 0 && num2 % i == 0) {
+                //只要进来就是约束，而且肯定比上次的值大
+                //所以每次进来都将i赋值给max
+                max = i;
+            }
+        }
+        System.out.println(max);
+    }
 }
