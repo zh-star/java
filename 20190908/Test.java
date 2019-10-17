@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 
@@ -116,7 +117,10 @@ public class Test{
     public static void main8(String[] args) {
         int n = 0;//记录数字9的个数,
         for(int num = 1; num <= 100; num++) {
-            if( num % 10 == 9 || num / 9 == 10 || num / 11 == 9) {
+            if(num % 10 == 9) {
+                n += 1;
+            }
+            if(num / 10 == 9) {
                 n += 1;
             }
         }
@@ -127,23 +131,135 @@ public class Test{
     //9. 求出0～999之间的所有“水仙花数”并输出。(重点，每次都忘记)
     //(“水仙花数”是指一个三位数，其各位数字的立方和确好等于该数本身， 
     // 如；153＝1＋5＋3?，则153是一个“水仙花数”。) 
-    public static void main(String[] args) {
+    public static void main9(String[] args) {
         //循环遍历0-999
         for(int num = 0; num < 1000; num ++) {
             //找到它是几位数
+            int sum = 0;//存每一位的指数和
             int count = 1;//储存位数
             int temp = num;
             while(temp / 10 != 0) {
                 count += 1;
                 temp /= 10;
             }       
-            int a = num % 10;
-             int b = (num / 10) % 10;
-             int c = (num / 100);
-             if (num == Math.pow(a,count) + Math.pow(b, count) + Math.pow(c, count)) {
+            temp = num;
+            while(temp != 0) {
+                sum += Math.pow(temp % 10, count);
+                temp /= 10;
+            }
+            if (num == sum) {
                  System.out.print(num + " ");
-             }     
-
+            }     
         }
     }
+
+    // 10.编写代码模拟三次密码输入的场景。 最多能输入三次密码，密码正确，
+    //提示“登录成功”,密码错误， 可以重新输入，最多输入三次。三次均错，则提示退出程序 
+    public static void main10(String[] args) {
+        Scanner sca = new Scanner(System.in);
+        int count = 3;
+        while(count != 0) {
+            System.out.print("请输入您的密码:");
+            String ch = sca.nextLine();
+            if(ch.equals("abcdef")) {   //equals 用于判断字符串是否相等
+                System.out.println("登陆成功");
+                break;
+            } else {
+                count --;
+                System.out.println("您还有" + count + "次机会输入");
+            }
+        }
+    }
+
+
+    //11. 写一个函数返回参数二进制中 1 的个数 比如： 15 0000 1111 4 个 1
+    //方法1：
+    public static void main111(String[] args) {
+        Scanner sca = new Scanner(System.in);
+        System.out.print("请输入一个整数：");
+        int num = sca.nextInt();
+        int count = 0;
+        while(num != 0) {
+            if(num % 2 == 1) {
+                count ++;
+            }
+            num /= 2;
+        }
+        System.out.println("二进制中有" + count + "个1");
+    }
+    //方法2：
+    public static void main112(String[] args) {
+        Scanner sca = new Scanner(System.in);
+        System.out.print("请输入一个整数：");
+        int num = sca.nextInt();
+        int count = 0;
+        while(num != 0) {
+            count ++;
+            num &= num - 1;
+        }
+        System.out.println("二进制中有" + count + "个1");
+    }
+
+
+    //12. 获取一个数二进制序列中所有的偶数位和奇数位， 分别输出二进制序列
+    public static void main12(String[] args) {
+        Scanner sca = new Scanner(System.in);
+        System.out.print("请输入一个整数:");
+        int num = sca.nextInt();
+        System.out.print("偶数位：");
+        for(int i = 31; i >= 1; i -= 2) {
+            System.out.print(((num >> i) & 1) + " ");
+        }
+        System.out.println();
+        System.out.print("奇数位：");
+        for(int i = 30; i >= 0; i -= 2) {
+            System.out.print(((num >> i) & 1) + " ");
+        }
+    }
+
+    //13. 输出一个整数的每一位. 
+    public static void func1(int num) {
+        //如果这里条件是 <10 一定要加上return，否则递归一直不能停止，最后栈溢出异常
+        //因为一直执行func1(num / 10);num 最中为个位数再到0，就一直打印0，所以要加上return。
+        if(num < 10) {
+            System.out.print(num + " ");
+            return;
+            //func1(num / 10);
+        }
+        System.out.print(num % 10 + " ");
+        func1(num / 10);
+    }
+    public static void main13(String[] args) {
+        Scanner sca = new Scanner(System.in);
+        System.out.print("请输入一个整数：");
+        int num = sca.nextInt();//1 2 3
+        // while(num != 0) {
+        //     System.out.print(num % 10 + " ");
+        //     num /= 10;
+        // }
+        //执行结果：3 2 1
+
+        func1(num);
+    }  
+    
+    //14. 完成猜数字游戏 
+    public static void main(String[] args) {
+        Random random = new Random();//默认随机种子是系统时间
+        int toGuss = random.nextInt(100);       
+
+        Scanner sca = new Scanner(System.in);
+        while(true) {
+            System.out.print("请输入您要猜的数字（1-100）：");
+            int num = sca.nextInt();
+            if(num == toGuss) {
+                System.out.println("恭喜您，猜对了！");
+                break;
+            } else if(num > toGuss) {
+                System.out.println("您猜大了！");
+            } else {
+                System.out.println("您猜小了");
+            }
+        }
+    }    
+
 }
