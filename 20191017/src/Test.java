@@ -28,7 +28,10 @@ public class Test {
 //        int ret = fib(n);
 //        System.out.println(ret);
 
+        hanNuota(62,'a','b','c');
 
+//        int ret = jumpFloor(n);
+//        System.out.println(ret);
 
 
     }
@@ -79,6 +82,22 @@ public class Test {
         return fib(n-2) + fib(n-1);
     }
 
-    //7. 实现代码: 求解汉诺塔问题(提示, 使用递归)
 
+    //7. 实现代码: 求解汉诺塔问题(提示, 使用递归)
+    public static void hanNuota(int n, char from, char mid, char to) {
+        if (n == 1) {
+            System.out.println("把第一个从" + from + "移动到" + to);
+        } else {
+            hanNuota(n - 1, from, to, mid);
+            System.out.println("把第" + n + "个从" + from + "移动到" + to);
+            hanNuota(n - 1, mid, from, to);
+        }
+    }
+    //8. 实现代码: 青蛙跳台阶问题(提示, 使用递归)
+    public static int jumpFloor(int n) {
+        if(n == 0 || n == 1) {
+            return 1;
+        }
+        return jumpFloor(n-2) + jumpFloor(n-1);
+    }
 }

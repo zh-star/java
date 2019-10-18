@@ -49,7 +49,7 @@ public class Test {
         }
         return -1;
     }
-    //递归版本二叉树
+    //递归版本二分查找
     public static int binarySearch(int[] array, int left, int right, int key) {
         if(left > right) {
             return -1;
@@ -66,7 +66,7 @@ public class Test {
         }
     }
 
-    //冒泡排序
+    //4.冒泡排序
     public static void bubbleSort(int[] arrary) {
         boolean flag = false;
         for(int i = 0; i < arrary.length - 1; i++) {
@@ -86,8 +86,71 @@ public class Test {
         }
     }
 
+    //5.给定一个整型数组, 判断是否该数组是有序的(升序)
+    public static boolean isSorted(int[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            if(array[i] > array[i+1]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    //6.求数组的平均数
+    public static double average(int[] arrary) {
+        double sum = 0;
+        for (int i = 0; i < arrary.length - 1; i++) {
+            sum += arrary[i];
+        }
+        return sum / arrary.length;
+    }
+
+    //7.数组的顺序查找
+    public static int find(int[] arrary,int key) {
+        for (int i = 0; i < arrary.length - 1; i++) {
+            if(key == arrary[i]) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    //8.数组的打印
+    public static void ToString(int[] array) {
+        System.out.print("[");
+        for (int i = 0; i < array.length ; i++) {
+            System.out.print(array[i]);
+            if(i != array.length - 1) {
+                System.out.print(",");
+            }
+        }
+        System.out.print("]");
+    }
+
+    //9.数组的拷贝
+    public static int[] CopyOf(int[] array,int length) {
+        int[] newArrary = new int[length];
+        for (int i = 0; i < length; i++) {
+            newArrary[i] = array[i];
+        }
+        return newArrary;
+    }
+
+    // 10.数组的逆序
+    public static int[] reverse(int[] array) {
+        int left = 0;
+        int right = array.length - 1;
+        for (int i = 0; i < array.length - 1; i++) {
+            while(left < right) {
+                int temp = array[left];
+                array[left] = array[right];
+                array[right] = temp;
+            }
+        }
+        return array;
+    }
     public static void main(String[] args){
-        int[] array = {8,4,5,2,6};
+        int[] array = {1,2,5,6,7};
 //        int ret = maxArray(arr);
 //        System.out.println("最大值是：" + ret);
 
@@ -97,8 +160,21 @@ public class Test {
 //        int ret = binarySearch(array,0,array.length -1,2);
 //        System.out.println(ret);
 
-        Arrays.copyOfRange(array,2,5);
-        bubbleSort(array);
-        System.out.println(Arrays.toString(array));
+
+//        bubbleSort(array);
+//        System.out.println(Arrays.toString(array));
+
+//        System.out.println(isSorted(array));
+
+//        System.out.println(average(array));
+
+        //System.out.println(find(array,6));
+
+//        ToString(array);
+
+//        System.out.println(Arrays.toString(CopyOf(array,3)));
+
+        int[] ret = reverse(array);
+        System.out.println(Arrays.toString(ret));
     }
 }
