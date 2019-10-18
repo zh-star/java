@@ -20,17 +20,17 @@ public class Test {
     }
 
     //2.逆置数组
-    public static int[] func1(int[] arr) {
+    public static int[] reverse(int[] arrary) {
         int left = 0;
-        int right = arr.length - 1;
+        int right = arrary.length - 1;
         while(left < right) {
-            int temp = arr[left];
-            arr[left] = arr[right];
-            arr[right] = temp;
+            int temp = arrary[left];
+            arrary[left] = arrary[right];
+            arrary[right] = temp;
             left ++;
             right --;
         }
-        return arr;
+        return arrary;
     }
     //3.二分查找
     public static int binarySearch1(int[] array,int key) {
@@ -136,21 +136,26 @@ public class Test {
         return newArrary;
     }
 
-    // 10.数组的逆序
-    public static int[] reverse(int[] array) {
+
+    //10.数组的数字排列，偶数放前，奇数放后
+    public static int[] transform(int[] array) {
         int left = 0;
         int right = array.length - 1;
-        for (int i = 0; i < array.length - 1; i++) {
-            while(left < right) {
-                int temp = array[left];
-                array[left] = array[right];
-                array[right] = temp;
+        while (left < right) {
+            while (left < right && array[left] % 2 == 0) {
+                left++;
             }
+            while (left < right && array[right] % 2 != 0) {
+                right--;
+            }
+            int temp = array[left];
+            array[left] = array[right];
+            array[right] = temp;
         }
         return array;
     }
     public static void main(String[] args){
-        int[] array = {1,2,5,6,7};
+        int[] array = {1,2,3,4,5};
 //        int ret = maxArray(arr);
 //        System.out.println("最大值是：" + ret);
 
@@ -174,7 +179,10 @@ public class Test {
 
 //        System.out.println(Arrays.toString(CopyOf(array,3)));
 
-        int[] ret = reverse(array);
-        System.out.println(Arrays.toString(ret));
+
+//        System.out.println(Arrays.toString(reverse(array)));
+
+        System.out.println(Arrays.toString(transform(array)));
+
     }
 }
