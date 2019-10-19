@@ -1,3 +1,5 @@
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 import java.util.Arrays;
 
 /**
@@ -116,7 +118,7 @@ public class Test {
     }
 
     //8.数组的打印
-    public static void ToString(int[] array) {
+    public static void ToString1(int[] array) {
         System.out.print("[");
         for (int i = 0; i < array.length ; i++) {
             System.out.print(array[i]);
@@ -125,6 +127,18 @@ public class Test {
             }
         }
         System.out.print("]");
+    }
+
+    public static String ToString2(int[] array) {
+        String str = "[";
+        for (int i = 0; i < array.length; i++) {
+            str += array[i];
+            if(i != array.length) {
+                str += ",";
+            }
+        }
+        str += "]";
+        return str;
     }
 
     //9.数组的拷贝
@@ -167,7 +181,8 @@ public class Test {
 
 
 //        bubbleSort(array);
-//        System.out.println(Arrays.toString(array));
+//        System.out.println(ToString1(array));
+        System.out.println(ToString2(array));
 
 //        System.out.println(isSorted(array));
 
@@ -184,5 +199,6 @@ public class Test {
 
         System.out.println(Arrays.toString(transform(array)));
 
+        Arrays.copyOf();
     }
 }
