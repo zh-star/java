@@ -11,5 +11,7 @@ public class Test {
         System.out.println(sepList.contains(5));
 
         System.out.println(sepList.search(5));
+        sepList.remove(5);
+        sepList.display();
     }
 }
