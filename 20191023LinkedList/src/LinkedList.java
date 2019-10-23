@@ -12,6 +12,7 @@ class Node {
     public Node() {
     }
     public Node(int date) {
+
         this.data = date;
     }
 }

@@ -7,6 +7,22 @@
  */
 public class Test {
     public static void main(String[] args){
+        MyLinkedList list = new MyLinkedList();
+        list.addAtTail(1);
+        list.addAtTail(2);
+        list.addAtTail(3);
+        list.display();
+        System.out.println(list.get(3));
+        list.addAtIndex(0,10);
+        list.addAtIndex(1,11);
+        list.addAtIndex(5,12);
+        list.display();
+        list.deleteAtIndex(6);
+        list.display();
+
+
+    }
+    public static void main1(String[] args){
         LinkedList linkedList = new LinkedList();
 //        linkedList.addFirst(2);
 //        linkedList.addFirst(2);
