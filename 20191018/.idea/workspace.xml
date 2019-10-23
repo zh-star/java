@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12d75a31-b8a2-4f93-be52-79b6db7756d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../20191017/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191017/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20190928SeqList/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190928SeqList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190928SeqList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190928SeqList/out/production/20190928SeqList/SepList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../20190928SeqList/out/production/20190928SeqList/SepList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190928SeqList/out/production/20190928SeqList/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../20190928SeqList/out/production/20190928SeqList/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,10 +49,13 @@
     <session id="-1040686739">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -81,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2656">
-              <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+            <state relative-caret-position="147">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,32 +138,13 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="20191018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="20191018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="20191018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="20191018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571490101386" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571490871063" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20190928SeqList" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -201,7 +188,11 @@
       <workItem from="1571366294008" duration="4700000" />
       <workItem from="1571379979806" duration="5267000" />
       <workItem from="1571387889406" duration="6305000" />
-      <workItem from="1571478365276" duration="1629000" />
+      <workItem from="1571478365276" duration="1972000" />
+      <workItem from="1571559746183" duration="824000" />
+      <workItem from="1571711698556" duration="614000" />
+      <workItem from="1571749825237" duration="583000" />
+      <workItem from="1571791934867" duration="365000" />
     </task>
     <task id="LOCAL-00001" summary="提交git">
       <created>1571387926663</created>
@@ -228,7 +219,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17901000" />
+    <option name="totallyTimeSpent" value="20630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
@@ -243,7 +234,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -291,8 +282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2656">
-          <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+        <state relative-caret-position="147">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
