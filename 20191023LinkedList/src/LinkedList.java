@@ -159,6 +159,7 @@ public class LinkedList {
                 cur = cur.next;
             }
         }
+        //处理头结点
         if(this.head.data == key) {
 
             this.head = this.head.next;
@@ -262,4 +263,115 @@ public class LinkedList {
         return beforeStart;
     }
 
+    //7.删除链表中的重复节点
+    public Node deleteDuplication() {
+        Node newHead = new Node(-1);
+        Node tmp = newHead;
+        Node cur = this.head;
+        while (cur != null) {
+            //代表找到相同的节点
+            if(cur.next != null &&
+                    cur.data == cur.next.data) {
+                while (cur.next != null &&
+                        cur.data == cur.next.data) {
+                    cur =cur.next;
+                }
+                cur = cur.next;
+                tmp.next = cur;
+            }else {
+                //没有找到相同的节点
+                tmp.next = cur;
+                tmp = tmp.next;
+                cur = cur.next;
+            }
+        }
+        return newHead.next;
+    }
+
+    //8.链表的回文
+    /**
+     * 1、定义两个引用，目的：找到单链表的中间位置
+     * 2、进行翻转，翻转的是后半部分
+     * 3、一个head从头开始走，slow从尾巴开始走
+     * 4、只要发现对应的data不相同，那么就不是回文
+     * @return
+     */
+    public boolean chkPalindrome(){
+        if(this.head == null) {
+            return false;
+        }
+        if(this.head.next == null)  {
+            return true;
+        }
+        Node fast = this.head;
+        Node slow = this.head;
+        while(fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        //循环结束。slow为链表的中间节点
+        Node p = slow.next;
+        while(p != null) {
+            Node pNext = p.next;
+            p.next = slow;
+            slow = p;
+            p = pNext;
+            if(p != null) {
+                pNext = p.next;
+            }
+        }
+        while(head != slow) {
+            if(head.data != slow.data) {
+                return false;
+            }
+            if(this.head.next == slow) {
+                return true;
+            }
+            head = head.next;
+            slow = slow.next;
+        }
+        return true;
+    }
+
+    //9.判断链表是否有环
+    public static Node getIntersectionNode(Node headA,Node headB){
+        int lenA = 0;
+        int lenB = 0;
+        Node pL = headA;//长的
+        Node pS = headB;//短的
+
+        while (pL != null) {
+            lenA++;
+            pL = pL.next;
+        }
+
+        while (pS != null) {
+            lenB++;
+            pS = pS.next;
+        }
+
+        int len = lenA - lenB;
+        if(len < 0) {
+            pL = headB;
+            pS = headA;
+            len = lenB-lenA;
+        }
+
+        pL = headA;
+        pS = headB;
+
+        //pL肯定指向最长的单链表
+        //pS肯定指向最短的单链表
+        //len  肯定是一个正数
+
+        for (int i = 0; i < len; i++) {
+            pL = pL.next;
+        }
+        //pL和pS此时已经在同一期起跑线上了
+        //可以一人一步走
+
+
+
+        return  null;
+    }
 }

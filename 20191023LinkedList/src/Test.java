@@ -6,7 +6,65 @@
  * Time: 9:38
  */
 public class Test {
+    public static Node getIntersectionNode(Node headA,Node headB){
+        int lenA = 0;
+        int lenB = 0;
+        Node pL = headA;//长的
+        Node pS = headB;//短的
+
+        while (pL != null) {
+            lenA++;
+            pL = pL.next;
+        }
+
+        while (pS != null) {
+            lenB++;
+            pS = pS.next;
+        }
+
+        int len = lenA - lenB;
+        if(len < 0) {
+            pL = headB;
+            pS = headA;
+            len = lenB-lenA;
+        }
+
+        pL = headA;
+        pS = headB;
+
+        //pL肯定指向最长的单链表
+        //pS肯定指向最短的单链表
+        //len  肯定是一个正数
+
+        for (int i = 0; i < len; i++) {
+            pL = pL.next;
+        }
+        //pL和pS此时已经在同一期起跑线上了
+        //可以一人一步走
+
+
+
+        return  null;
+    }
     public static void main(String[] args){
+
+        LinkedList linkedList = new LinkedList();
+        linkedList.addLast(1);
+        linkedList.addLast(2);
+        linkedList.addLast(3);
+        linkedList.addLast(2);
+        linkedList.addLast(1);
+        //System.out.println(linkedList.chkPalindrome());
+        LinkedList linkedList1 = new LinkedList();
+        linkedList1.addLast(1);
+        linkedList1.addLast(2);
+        linkedList1.addLast(3);
+        linkedList1.addLast(2);
+        linkedList1.addLast(1);
+        Node node = getIntersectionNode(linkedList.head,linkedList1.head);
+        System.out.println(node.data);
+    }
+    public static void main2(String[] args){
         MyLinkedList list = new MyLinkedList();
         list.addAtTail(1);
         list.addAtTail(2);
