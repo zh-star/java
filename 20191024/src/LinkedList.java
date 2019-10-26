@@ -374,4 +374,38 @@ public class LinkedList {
         evenTail.next = oddHead;
         return evenHead;
     }
+
+    //14.重排链表
+    // 给定链表 1->2->3->4, 重新排列为 1->4->2->3.
+    public void reorderList(ListNode head) {
+        if (head == null) {
+            return;
+        }
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        ListNode prev = null;
+        ListNode cur = slow;
+        while (cur != null) {
+            ListNode curNext = cur.next;
+            cur.next = prev;
+            if (curNext == null) {
+                break;
+            }
+            prev = cur;
+            cur = curNext;
+        }
+        ListNode left = head;
+        ListNode right = cur;
+        while (right.next != null) {
+            ListNode rightNext = right.next;
+            right.next = left.next;
+            left.next = right;
+            left = left.next.next;
+            right = rightNext;
+        }
+    }
 }
