@@ -206,5 +206,172 @@ public class LinkedList {
     }
 
     // 8.链表的回文结构
+    public boolean chkPalindrome(ListNode head) {
+        if (head == null) {
+            return false;
+        }
+        if (head.next == null) {
+            return true;
+        }
+        int len = getLength() / 2;
+        ListNode cur = head;
+        for (int i = 0; i < len; i++) {
+            cur = cur.next;
+        }
+        //循环结束，cur到达中间位置
+        ListNode prev = null;
+        while (cur != null) {
+            ListNode curNext = cur.next;
+            cur.next = prev;
+            if (curNext == null) {
+                break;
+            }
+            prev = cur;
+            cur = curNext;
+        }
+        ListNode head2 = cur;
+        //循环结束，链表后半部分反转完成
+        while (head2 != null) {
+            if (head2.val != head.val) {
+                return false;
+            }
+            head2 = head2.next;//&&
+            head = head.next;//&&
+        }
+        return true;
+    }
 
+    // 9.输入两个链表，找出它们的第一个公共结点。
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) {
+            return null;
+        }
+        int lenA = 0;
+        int lenB = 0;
+        ListNode curA = headA;
+        ListNode curB = headB;
+        while (curA != null) {
+            lenA ++;
+            curA = curA.next;
+        }
+        while (curB != null) {
+            lenB ++;
+            curB = curB.next;
+        }
+        curA = headA;
+        curB = headB;
+        int step = 0;
+        if (lenA > lenB) {
+            step = lenA - lenB;
+            for (int i = 0; i < step; i++) {
+                curA = curA.next;
+            }
+        } else {
+            step = lenB - lenA;
+            for (int i = 0; i < step; i++) {
+                curB = curB.next;
+            }
+        }
+        while (curA != curB) {
+            curA = curA.next;
+            curB = curB.next;
+        }
+        return curA;
+    }
+
+    //10. 给定一个链表，判断链表中是否有环
+    //思路：创建两个引用，一个为快引用，一个为快引用，快引用每次走两步，慢引用每次走一步，重合说明有环，否则没环
+    public boolean hasCycle(ListNode head) {
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (fast == slow) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    //11. 给定一个链表，返回链表开始入环的第一个节点。 如果链表无环，则返回 null
+    public ListNode detectCycle(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (fast == slow) {
+                break;
+            }
+        }
+        //退出循环说明链表带环或者fast为空
+        if (fast == null && fast.next == null) {//&&&
+            return null;
+        }
+        slow = head;
+        while (slow != fast) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return slow;
+    }
+
+    //12.给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
+    //你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
+    public ListNode swapPairs(ListNode head) {
+        //判空和判是否是一个节点
+        if(head == null || head.next == null) {
+            return head;
+        }
+        //思考：创建一个新的链表，先将原链表的第二个值放进去，再把第一个发放进去，
+        //原链表有偶数个节点，正常；若是奇数个，再移动完之后要进行判断，将其连接到新链表的后面
+        ListNode newHead = new ListNode(-1);
+        ListNode newTail = newHead;
+        ListNode prev = head;
+        ListNode cur = head.next;
+        ListNode curNext = cur.next;
+        while (cur != null) {
+            curNext = cur.next;
+            newTail.next = new ListNode(cur.val);
+            newTail = newTail.next;
+            newTail.next = new ListNode(prev.val);
+            newTail = newTail.next;
+            if (curNext == null) {
+                break;
+            }
+            prev = curNext;
+            cur = prev.next;
+        }
+        if (curNext != null) {
+            newTail.next = new ListNode(prev.val);
+            newTail = newTail.next;
+        }
+        return newHead.next;
+    }
+
+    //13.给定一个单链表，把所有的奇数节点和偶数节点分别排在一起。
+    // 请注意，这里的奇数节点和偶数节点指的是节点编号的奇偶性，而不是节点的值的奇偶性。
+    public ListNode oddEvenList(ListNode head) {
+        // 合法性校验
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        ListNode evenHead = head;
+        ListNode evenTail = evenHead;
+        ListNode oddHead = head.next;
+        ListNode oddTail =  oddHead;
+        while (oddTail != null && oddTail.next != null) {
+            evenTail.next = oddTail.next;
+            evenTail = evenTail.next;
+            oddTail.next = evenTail.next;
+            oddTail = oddTail.next;
+        }
+        evenTail.next = oddHead;
+        return evenHead;
+    }
 }
