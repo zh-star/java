@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82550a31-cc7e-4e0c-a0e2-17481a426cf3" name="Default Changelist" comment="git">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190923/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190923/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20190923/src/Swap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20190923/src/Swap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20191024/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/20191023LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/20191023LinkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/20191023LinkedList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/20191023LinkedList/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/20191023LinkedList/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/20191023LinkedList/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191024/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191024/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20191024/src/LinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +54,8 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -98,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1820">
+            <state relative-caret-position="458">
               <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
             </state>
           </provider>
@@ -107,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="160" column="9" lean-forward="true" selection-start-line="160" selection-start-column="9" selection-end-line="160" selection-end-column="9" />
+            <state relative-caret-position="1">
+              <caret line="200" column="30" lean-forward="true" selection-start-line="200" selection-start-column="30" selection-end-line="200" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -141,42 +139,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="15" />
-    <option name="y" value="30" />
-    <option name="width" value="1890" />
-    <option name="height" value="930" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="7" />
+    <option name="width" value="1014" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="20191023LinkedList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="20191023LinkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="20191023LinkedList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="20191023LinkedList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571903895851" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20190923" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20191024" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -224,6 +202,7 @@
       <workItem from="1571827134125" duration="6638000" />
       <workItem from="1571878487429" duration="6567000" />
       <workItem from="1571899379068" duration="2269000" />
+      <workItem from="1572054774216" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1571837615192</created>
@@ -243,10 +222,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35241000" />
+    <option name="totallyTimeSpent" value="36373000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24333064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -299,15 +279,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1820">
+        <state relative-caret-position="458">
           <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="160" column="9" lean-forward="true" selection-start-line="160" selection-start-column="9" selection-end-line="160" selection-end-column="9" />
+        <state relative-caret-position="1">
+          <caret line="200" column="30" lean-forward="true" selection-start-line="200" selection-start-column="30" selection-end-line="200" selection-end-column="30" />
         </state>
       </provider>
     </entry>
