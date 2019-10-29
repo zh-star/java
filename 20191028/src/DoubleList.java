@@ -155,8 +155,9 @@ class DoubleList {
         System.out.println("]");
     }
     public void clear(){
-        this.head = null;
-        this.head.next
+        this.head.next = null;
+        this.head.prev = null;
+
     }
 
 }

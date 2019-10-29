@@ -7,6 +7,15 @@
  */
 public class Test {
     public static void main(String[] args){
+        DlinkedList dlinkedList = new DlinkedList();
+        dlinkedList.addFirst(1);
+        dlinkedList.addFirst(2);
+        dlinkedList.addFirst(3);
+        dlinkedList.addFirst(4);
+        dlinkedList.display();
+
+    }
+    public static void main1(String[] args){
         DoubleList doubleList = new DoubleList();
 //        doubleList.addFirst(1);
 //        doubleList.addFirst(2);
@@ -25,8 +34,10 @@ public class Test {
 //        //System.out.println(doubleList.remove(4));
 //        doubleList.display();
 //        doubleList.removeAllKey(1);
-        doubleList.clear();
+        //doubleList.clear();
         doubleList.display();
+        doubleList.clear();
+        System.out.println("=============");
     }
 
 }
