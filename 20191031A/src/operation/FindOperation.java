@@ -20,13 +20,14 @@ public class FindOperation implements IOperation {
         for (; i < bookList.getUsedSize(); i++) {
             if (bookList.getBook(i).getName().equals(name)) {
                 System.out.println(bookList.getBook(i));
+                break;
             }
         }
         if(i >= bookList.getUsedSize()) {
             System.out.println("没有找到此书籍");
-            return;
+        } else {
+            System.out.println("查找书籍完毕");
         }
-        System.out.println("查找书籍完毕");
 
     }
 }

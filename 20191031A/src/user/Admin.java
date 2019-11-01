@@ -29,7 +29,7 @@ public class Admin extends User{
         System.out.println("3.删除图书");
         System.out.println("4.显示所有图书");
         System.out.println("0.退出系统");
-        System.out.println("===================================");
+        System.out.println("=========================");
         System.out.println("请输入您的选择：");
         int choice = scanner.nextInt();
         return choice;
