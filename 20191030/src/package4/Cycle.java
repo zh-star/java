@@ -10,7 +10,7 @@ package package4;
 public class Cycle extends Shape{
     @Override
     public void draw() {
-        //画员
+        //画圆
         System.out.println("⚪");
     }
 }

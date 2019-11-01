@@ -11,12 +11,25 @@ import package1.Animal;
  */
 public class Test {
     public static void main(String[] args){
+        //向上转型
+//        Animal animal = new Bird("圆圆");
+//        animal.eat("小米");
         //向下转型
-        Bird bird= new Bird("圆圆");
-        feed(bird);
+//        Bird bird= new Bird("圆圆");
+//        feed(bird);
+
+//        Bird bird1 = new Bird("圆圆");
+//        feed(bird1);
+        Animal animal = findMyAnimal();
+
 
     }
     public static void feed(Animal animal) {
+
         animal.eat("谷子");
+    }
+    public static Animal findMyAnimal() {
+        Bird bird = new Bird("圆圆");
+        return bird;
     }
 }
