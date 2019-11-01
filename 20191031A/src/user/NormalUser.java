@@ -32,5 +32,6 @@ public class NormalUser extends User {
         System.out.println("请输入您的选择：");
         int choice = scanner.nextInt();
         return choice;
+
     }
 }
