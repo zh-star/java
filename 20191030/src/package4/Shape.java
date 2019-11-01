@@ -10,5 +10,6 @@ package package4;
 public class Shape {
     public void draw() {
         //什么都不干，只是为了和子类形成重写
+
     }
 }
