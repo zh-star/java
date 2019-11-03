@@ -11,6 +11,13 @@ import package1.Animal;
  */
 public class Test {
     public static void main(String[] args){
+        Animal animal = new Cat("小猫");
+        if(animal instanceof Cat) {
+            Bird bird = (Bird)animal;
+            bird.fly();
+        }
+    }
+    public static void main1(String[] args){
         //向上转型
 //        Animal animal = new Bird("圆圆");
 //        animal.eat("小米");
