@@ -12,10 +12,10 @@ import operation.*;
 public class NormalUser extends User {
     public NormalUser(String name) {
         this.name = name;
-        this.operations = new IOperation[]{
-                new ExitOpration(),
+        this.operations = new IOperation[]{ //向上转型
+                new ExitOperation(),
                 new FindOperation(),
-                new BrrowOperation(),
+                new BorrowOperation(),
                 new ReturnOperation(),
                 new DisplayOperation()
         };

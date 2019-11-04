@@ -2,7 +2,6 @@ package user;
 
 import book.BookList;
 import operation.IOperation;
-import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
 import java.util.Scanner;
 

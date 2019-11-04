@@ -374,4 +374,17 @@ public class LinkedList {
 
         return  null;
     }
+
+    //
+    public   Node findKthToTail(int k) {
+        int step = getLength1();
+        Node fast = this.head;
+        Node slow = this.head;
+    }
+    private int getLength1(){
+        int length = 0;
+        for(Node cur = this.head, cur != null, cur = cur.next) {
+            length ++;
+        }
+    }
 }

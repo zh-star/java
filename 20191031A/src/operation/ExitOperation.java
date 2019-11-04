@@ -9,7 +9,7 @@ import book.BookList;
  * Date: 2019 -10
  * Time: 20:34
  */
-public class ExitOpration implements IOperation {
+public class ExitOperation implements IOperation {
     @Override
     public void work(BookList bookList) {
         System.out.println("程序退出");

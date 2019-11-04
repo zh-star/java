@@ -13,7 +13,7 @@ import java.util.Scanner;
  * Date: 2019 -10
  * Time: 18:11
  */
-public class BrrowOperation implements IOperation {
+public class BorrowOperation implements IOperation {
     @Override
     public void work(BookList bookList) {
         //输入需要借阅书籍的名称

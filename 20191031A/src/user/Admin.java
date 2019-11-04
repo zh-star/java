@@ -13,7 +13,7 @@ public class Admin extends User{
     public Admin(String name) {
         this.name = name;
         this.operations = new IOperation[]{
-                new ExitOpration(),
+                new ExitOperation(),
                 new FindOperation(),
                 new AddOperation(),
                 new DelOperation(),
