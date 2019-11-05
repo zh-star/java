@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82550a31-cc7e-4e0c-a0e2-17481a426cf3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListNode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListNode/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20191031A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191031A/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191031A/src/operation/BrrowOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20191031A/src/operation/BorrowOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191031A/src/operation/ExitOpration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20191031A/src/operation/ExitOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191031A/src/user/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20191031A/src/user/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191031A/src/user/NormalUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20191031A/src/user/NormalUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191031A/src/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20191031A/src/user/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,46 +50,50 @@
     <session id="1518038051">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2380" />
+          <entry key="java" value="2813" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2380" />
+          <entry key="JAVA" value="2813" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ListNode/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="338">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,17 +101,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1820">
-              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="381" column="30" lean-forward="true" selection-start-line="381" selection-start-column="30" selection-end-line="381" selection-end-column="30" />
+            <state relative-caret-position="26">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding>
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/ListNode/ListNode.java" />
       </list>
     </option>
   </component>
@@ -163,11 +159,6 @@
               <item name="20191023LinkedList" type="b2602c69:ProjectViewProjectNode" />
               <item name="20191023LinkedList" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="20191023LinkedList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="20191023LinkedList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -177,10 +168,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572864617509" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572881570992" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -229,7 +221,8 @@
       <workItem from="1572054774216" duration="1774000" />
       <workItem from="1572072701109" duration="599000" />
       <workItem from="1572092366881" duration="2000" />
-      <workItem from="1572863448477" duration="1618000" />
+      <workItem from="1572863448477" duration="3957000" />
+      <workItem from="1572915459833" duration="2181000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1571837615192</created>
@@ -252,17 +245,24 @@
       <option name="project" value="LOCAL" />
       <updated>1572063033764</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="git">
+      <created>1572881438601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572881438601</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39234000" />
+    <option name="totallyTimeSpent" value="43754000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25545675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2586904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,24 +304,39 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/NewLinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8788">
+          <caret line="338" column="17" lean-forward="true" selection-start-line="338" selection-start-column="17" selection-end-line="338" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="458">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1820">
-          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        <state relative-caret-position="26">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/ListNode/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="381" column="30" lean-forward="true" selection-start-line="381" selection-start-column="30" selection-end-line="381" selection-end-column="30" />
+        <state relative-caret-position="338">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
