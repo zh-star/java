@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -6,7 +8,23 @@
  * Time: 15:53
  */
 public class TestDemo2 {
+
+
+    //String 变为StringBuffer
+    //利用StringBuffer的构造函数，或者append()方法
     public static void main(String[] args){
+        String str = "abcdef";
+        StringBuffer buf = new StringBuffer(str);
+        System.out.println(buf);
+        buf.append(str);
+        System.out.println(buf);
+
+        StringBuffer buf1 = new StringBuffer();
+        buf1.append("hello world");
+        String str1 = new String(buf1);
+        System.out.println(str);
+    }
+    public static void main1(String[] args){
         //字符串的创建
         String str11 = "abcdef";
 //        String str2 = new String("abcdef");

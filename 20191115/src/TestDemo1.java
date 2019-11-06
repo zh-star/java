@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
-
+import java.util.*;
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -17,6 +17,8 @@ public class TestDemo1 {
         str = reverse(str,size,str.length() -1);
         str = reverse(str,0,str.length() -1);
         System.out.println(str);
+        //byte[] bytes = {12,23,24,25};
+        //String s = String.copyValueOf(bytes);//String.copyValueOf(char[] ch)
     }
     public static String reverse(String str,int start,int end){
         char[] ch = str.toCharArray();
@@ -27,7 +29,7 @@ public class TestDemo1 {
             start ++;
             end --;
         }
-        return  new String(ch);
+        return  String.copyValueOf(ch);
     }
     public static String reverse(String str) {
         char[] ch = str.toCharArray();
