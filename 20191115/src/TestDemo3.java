@@ -10,6 +10,22 @@ import java.util.Scanner;
  */
 public class TestDemo3 {
 
+
+    public static void main5(String[] args){
+        char[] ch1 = {'a'};
+        char[] ch2 = {'b'};
+        System.out.println(ch1);
+        System.out.println(ch2);
+        swap(ch1,ch2);
+        System.out.println(ch1);
+        System.out.println(ch2);
+    }
+    public static void swap(char[] ch1, char[] ch2) {
+        char temp = ch1[0];
+        ch1[0] = ch2[0];
+        ch2[0] = temp;
+    }
+
     //翻转字符串 牛客网
     //输入 ：i am a student  输出：i ma a tneduts
     public static void main4(String[] args) {
@@ -129,5 +145,7 @@ public class TestDemo3 {
             ret.append(value[i]);
         }
         System.out.println(ret);
+//        int count = 0;
+//        while(count % 10 != 0);
     }
 }
