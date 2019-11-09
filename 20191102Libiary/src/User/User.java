@@ -13,11 +13,11 @@ import java.util.Scanner;
  * Time: 18:07
  */
 public abstract class User  {
-    private String name;
+    protected String name;
     protected IOperation[] operations;
 
     Scanner scanner = new Scanner(System.in);
-    //public abstract int menu();
+    public abstract int menu();
 
     //根据用户选项执行操作
     public void doOperation(int choice, BookList bookList) {
