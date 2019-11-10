@@ -69,7 +69,7 @@ public class Book {
                 ", author='" + author + '\'' +
                 ", price=" + price +
                 ", type='" + type + '\'' +
-                (isBorrowed == true ? "已经被借出" : "没有被借出") +
+                (isBorrowed == true ? ", 状态：已经被借出" : ", 状态：没有被借出") +
                 '}';
     }
 }
