@@ -32,6 +32,8 @@ public class AddOperation implements IOperation{
 
         bookList.setUsedSize(size + 1);//usedSize + 1
 
+        System.out.println(bookList.getBooks(bookList.getUsedSize() - 1));
+
         System.out.println("新增图书完成！");
 
     }

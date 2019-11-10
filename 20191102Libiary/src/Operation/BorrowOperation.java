@@ -24,14 +24,14 @@ public class BorrowOperation implements IOperation{
             }
         }
 
-        if (i >= bookList.getUsedSize()) {
-            System.out.println("没有此书籍");
+        if (i > bookList.getUsedSize()) {
+            System.out.println("没有此找到书籍");
             return;
         }
         Book book = bookList.getBooks(i);
         if (book.isBorrowed()) {
             //默认是false 表示书在图书馆，true表示被借出
-            System.out.println("此书被借出去了！");
+            System.out.println("此书已经被借出！");
         } else {
             book.setBorrowed(true);
             System.out.println("借书成功");

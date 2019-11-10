@@ -10,7 +10,7 @@ import Book.BookList;
  * Date: 2019 -11
  * Time: 19:22
  */
-public class DisplayOperation implements IOperation{
+public class DisplayOperation implements IOperation {
     @Override
     public void work(BookList bookList) {
         for(int i = 0; i < bookList.getUsedSize(); i ++) {

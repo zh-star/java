@@ -61,4 +61,15 @@ public class Book {
     public void setBorrowed(boolean borrowed) {
         isBorrowed = borrowed;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "name='" + name + '\'' +
+                ", author='" + author + '\'' +
+                ", price=" + price +
+                ", type='" + type + '\'' +
+                (isBorrowed ? ", 状态：已被借出" : ", 状态：未被借出") +
+                '}';
+    }
 }
