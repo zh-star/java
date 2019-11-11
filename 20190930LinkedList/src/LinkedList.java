@@ -8,7 +8,7 @@ public class LinkedList {
          * 输入: 1->2->6->3->4->5->6, val = 6
          * 输出: 1->2->3->4->5
          * */
-        public ListNode removeElements(ListNode head, int val) {
+        public ListNode removeElements(int val) {
             if (head == null) {
                 return null;
             }
@@ -372,4 +372,21 @@ public class LinkedList {
         //如果链表带环，快指针一定会和慢指针重合，
 
 
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+            ListNode newHead = new ListNode(-1);
+            ListNode newTail = newHead;
+            ListNode cur1 = l1;
+            ListNode cur2 = l2;
+            while(cur1 != null && cur2 != null) {
+                if(cur1.val < cur2.val) {
+                    newTail.next = cur1;
+                    newTail = newTail.next;
+                    cur1 = cur1.next;
+                } else {
+                    newTail.next = cur2;
+                    newTail = newTail.next;
+                    cur2 = cur2.next;
+                }
+            }
+    }
 }
