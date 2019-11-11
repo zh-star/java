@@ -372,12 +372,6 @@ public class LinkedList {
         }
         //pL和pS此时已经在同一期起跑线上了
         //可以一人一步走
-
-
-
         return  null;
     }
-
-
-
 }
