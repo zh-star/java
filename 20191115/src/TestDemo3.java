@@ -11,6 +11,8 @@ import java.util.Scanner;
 public class TestDemo3 {
 
 
+
+
     public static void main5(String[] args){
         char[] ch1 = {'a'};
         char[] ch2 = {'b'};
@@ -28,6 +30,17 @@ public class TestDemo3 {
 
     //翻转字符串 牛客网
     //输入 ：i am a student  输出：i ma a tneduts
+    //方法一
+    public static void main6(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String[] str = sc.nextLine().split(" ");
+        StringBuilder sb = new StringBuilder();
+        for(String s : str){
+            sb.append(new StringBuilder(s).reverse().append(" "));
+        }
+        System.out.println(sb.toString());
+    }
+    //方法二
     public static void main4(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
