@@ -56,6 +56,9 @@ public class LinkedList {
         System.out.println("]");
     }
 
+
+
+
     public void display(){
         System.out.print("[");
         for (Node cur = this.head; cur !=null; cur = cur.next) {
