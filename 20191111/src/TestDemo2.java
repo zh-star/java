@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -8,7 +10,7 @@ import java.util.List;
  * Date: 2019 -11
  * Time: 10:01
  */
-class Student {
+class Student  {
     private String name;
     private String classes;
     private double score;
@@ -27,14 +29,16 @@ class Student {
                 ", score=" + score +
                 '}';
     }
+
 }
 public class TestDemo2 {
-    public static void main(String[] args){
+    public static void main1(String[] args){
         List<Student> list = new ArrayList<>();
         list.add(new Student("ZHXX","16040",99.0));
         list.add(new Student("WSY","160404",99.0));
         list.add(new Student("WJ","160405",99.0));
         list.add(new Student("WJA","160406",99.0));
+        //Collections.sort(list);
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
