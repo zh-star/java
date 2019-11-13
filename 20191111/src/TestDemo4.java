@@ -54,15 +54,19 @@ public class TestDemo4 {
         char[] value2 = str2.toCharArray();
         StringBuffer ret = new StringBuffer();
         //System.out.println(Arrays.toString(value2));
-        ArrayList<Character> arrayList = new ArrayList<>();
-        for (int i = 0; i < value1.length; i++) {
-
-            for (int j = 0; j < value2.length; j++) {
-                arrayList.add(value1[i]);
-                if(arrayList.get(i) != (value2[j])) {
-                    ret.append(arrayList.get(i));
-
+       // ArrayList<Character> arrayList = new ArrayList<>();
+        int i = 0;
+        while (i < value1.length) {
+           // arrayList.add(value1[i]);
+            int j = 0;
+                //System.out.println(arrayList);
+            if( j < value2.length && value1[i] != (value2[j])) {
+                while (j < value2.length && value1[i] != (value2[j])) {
+                    j++;
                 }
+                ret.append(value1[i]);
+            } else {
+                i++;
             }
 
         }
