@@ -129,6 +129,19 @@ class MyLinkedList {
         System.out.println("]");
 
     }
+
+    public ListNode findKth(int k) {
+        int len = size();
+        if(k < 0 || k >len) {
+            return null;
+        }
+        int steps = len - k;
+        ListNode cur = this.head;
+        for (int i = 0; i < steps; i++) {
+            cur = cur.next;
+        }
+        return cur;
+    }
 }
 
 
