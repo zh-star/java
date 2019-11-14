@@ -6,7 +6,7 @@ import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
- * Description:
+ * Description: 队列实现栈
  * User: STAR
  * Date: 2019 -11
  * Time: 9:43
