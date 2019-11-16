@@ -7,9 +7,9 @@ package package1;
  * Date: 2019 -11
  * Time: 16:37
  */
+
 public class TestDemo1 {
     public static void main(String[] args){
-
     }
     //1108. IP 地址无效化
     //给你一个有效的 IPv4 地址 address，返回这个 IP 地址的无效化版本。
