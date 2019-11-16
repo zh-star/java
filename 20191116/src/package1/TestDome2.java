@@ -27,4 +27,4 @@ public class TestDome2 {
         return str.toString().trim();
     }
 }
-}
+

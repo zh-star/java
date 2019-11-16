@@ -9,8 +9,8 @@ package package1;
  */
 
 public class TestDemo1 {
-    public static void main(String[] args){
-    }
+
+
     //1108. IP 地址无效化
     //给你一个有效的 IPv4 地址 address，返回这个 IP 地址的无效化版本。
     //
@@ -93,5 +93,34 @@ public class TestDemo1 {
             return true;
         }
         return false;
+    }
+
+    public static void main(String[] args){
+        String s = "abcdefg";
+        String ret = reverseStr(s,2);
+        System.out.println(ret);
+    }
+
+    public static String reverseStr(String s, int k) {
+        int start = 0;
+        for(int i = 0; i < s.length(); i += 2*k) {
+            if(i + 2*k < s.length()) {
+                s = reverse(s,i,i + k - 1);
+            } else if(i > s.length() - 2){
+                s = reverse(s,i,s.length() - 2);
+            }
+        }
+        return s;
+    }
+    public static String reverse(String str,int left, int right) {
+        char[] value = str.toCharArray();
+        while(left < right) {
+            char temp = value[left];
+            value[left] = value[right];
+            value[right] = temp;
+            left ++;
+            right --;
+        }
+        return new String(value);
     }
 }
