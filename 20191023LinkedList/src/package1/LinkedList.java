@@ -113,4 +113,24 @@ public class LinkedList {
         }
         cur.next = node;
     }
+
+    public ListNode reverseBetween(ListNode head, int m, int n) {
+        ListNode prev1 = null;
+        ListNode p = null;
+        ListNode cur = head;
+        for(int i = 0; i < m; i++) {
+            p = prev1;
+            prev1 = cur;
+            cur = cur.next;
+        }
+        ListNode prev2 = prev1;
+        for(int i = m; i < n; i ++) {
+            cur.next = prev2;
+            cur = cur.next;
+            prev2 = prev2.next;
+        }
+        prev1.next = cur.next;
+        p.next = cur;
+        return head;
+    }
 }
