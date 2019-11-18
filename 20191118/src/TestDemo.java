@@ -11,10 +11,13 @@ public class TestDemo {
         Node root = binaryTree.buildTree();
         binaryTree.preOrderTraversal(root);
         System.out.println();
+        binaryTree.inOrderTraversal(root);
+        System.out.println();
         binaryTree.postOrderTraversal(root);
-        binaryTree.postOrderTraversal(root);
-        binaryTree.postOrderTraversal(root);
+        System.out.println();
 
+        System.out.println(binaryTree.getSize1(root));//所有节点
+        System.out.println(binaryTree.getLeafSize1(root));//叶子节点
 
     }
 }
