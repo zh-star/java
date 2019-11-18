@@ -12,6 +12,9 @@ public class TestDemo {
         binaryTree.preOrderTraversal(root);
         System.out.println();
         binaryTree.postOrderTraversal(root);
+        binaryTree.postOrderTraversal(root);
+        binaryTree.postOrderTraversal(root);
+
 
     }
 }
