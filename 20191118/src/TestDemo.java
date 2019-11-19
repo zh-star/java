@@ -1,3 +1,5 @@
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -9,15 +11,29 @@ public class TestDemo {
     public static void main(String[] args){
         BinaryTree binaryTree = new BinaryTree();
         Node root = binaryTree.buildTree();
+
+        System.out.println();
         binaryTree.preOrderTraversal(root);
         System.out.println();
+        System.out.println("迭代法前序");
+        binaryTree.preOrderTraversal2(root);
+        System.out.println();
+        System.out.println("======================");
+
         binaryTree.inOrderTraversal(root);
         System.out.println();
+        System.out.println("迭代法中序");
+        binaryTree.inOrderTraversal2(root);
+        System.out.println();
+        System.out.println("======================");
+
         binaryTree.postOrderTraversal(root);
         System.out.println();
-
-        System.out.println(binaryTree.getSize1(root));//所有节点
-        System.out.println(binaryTree.getLeafSize1(root));//叶子节点
-
+        System.out.println("迭代法后序");
+        binaryTree.postOrderTraversal2(root);
+        System.out.println();
+        System.out.println("======================");
+       // System.out.println(binaryTree.getSize1(root));//所有节点
+       // System.out.println(binaryTree.getLeafSize1(root));//叶子节点
     }
 }

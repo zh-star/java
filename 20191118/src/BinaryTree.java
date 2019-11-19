@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -6,7 +8,7 @@
  * Time: 20:29
  */
 class Node {
-    char value;
+    char  value;
     Node left;
     Node right;
     public Node(char value) {
@@ -42,6 +44,19 @@ public class BinaryTree {
         preOrderTraversal(root.left);
         preOrderTraversal(root.right);
     }
+    void preOrderTraversal2(Node root) {
+        Stack<Node> stack = new Stack<>();
+        Node cur = root;
+        while(cur != null || !stack.empty()) {
+            while (cur != null) {
+                stack.push(cur);
+                System.out.print(cur.value + " ");
+                cur = cur.left;
+            }
+            cur = stack.pop();
+            cur = cur.right;
+        }
+    }
     //中序遍历
     void inOrderTraversal(Node root){
         if(root == null) {
@@ -50,6 +65,20 @@ public class BinaryTree {
         inOrderTraversal(root.left);
         System.out.print(root.value+" ");
         inOrderTraversal(root.right);
+    }
+    void inOrderTraversal2(Node root){
+        Stack<Node> stack = new Stack<>();
+        Node cur = root;
+        while(cur != null || !stack.empty()) {
+
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            }
+            cur = stack.pop();
+            System.out.print(cur.value + " ");
+            cur = cur.right;
+        }
     }
 
     // 后序遍历
@@ -60,6 +89,27 @@ public class BinaryTree {
         postOrderTraversal(root.left);
         postOrderTraversal(root.right);
         System.out.print(root.value+" ");
+    }
+    void postOrderTraversal2(Node root) {
+        Stack<Node> stack = new Stack<>();
+        List<Node> list = new ArrayList<>();
+        Node cur = root;
+        while(cur != null || !stack.empty()) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+
+            }
+            cur = stack.peek();
+            list.add(cur);
+            if(cur.right == null || list.contains(cur)) {
+                System.out.print(cur.value + " ");
+                stack.pop();
+            }
+            cur = cur.right;
+
+        }
+
     }
     //求结点个数
     int getSize2(Node root){
@@ -103,5 +153,41 @@ public class BinaryTree {
         getLeafSize1(root.left);
         getLeafSize1(root.right);
         return leafSize;
+    }
+
+    // 查找 val 所在结点，没有找到返回 null
+    // 按照 根 -> 左子树 -> 右子树的顺序进行查找
+    // 一旦找到，立即返回，不需要继续在其他位置查找
+    Node find(Node root, int val) {
+        if(root == null) {
+            return null;
+        }
+        if(root.value == val) {
+            return root;
+        }
+        Node ret = find(root.left,val);
+        if(ret != null) {
+            return ret;
+        }
+        Node ret2 = find(root.right,val);
+        if(ret2 != null) {
+            return ret2;
+        }
+        return null;
+    }
+
+    void levelOrderTraversal(Node root) {
+        Queue<Node> queue = new LinkedList<>();
+        Node cur = root;
+        while(cur != null) {
+            System.out.println(cur.value);
+
+                queue.offer(cur);
+                cur = cur.left;
+
+//                cur = queue.poll();
+//                cur = cur.right;
+
+        }
     }
 }
