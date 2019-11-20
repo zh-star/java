@@ -35,5 +35,9 @@ public class TestDemo {
         System.out.println("======================");
        // System.out.println(binaryTree.getSize1(root));//所有节点
        // System.out.println(binaryTree.getLeafSize1(root));//叶子节点
+
+
+        binaryTree.levelOrderTraversal(root);
+        System.out.println(binaryTree.isCompleteTree(root));
     }
 }

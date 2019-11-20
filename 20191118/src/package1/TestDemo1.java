@@ -9,6 +9,10 @@ package package1;
  */
 public class TestDemo1 {
     public static void main(String[] args){
+
+        int[] inorder = {294,824,4827};
+
+
         BinaryTree binaryTree = new BinaryTree();
         Node root = binaryTree.buildTree();
         //System.out.println(root);

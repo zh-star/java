@@ -26,6 +26,7 @@ public class BinaryTree {
         Node F = new Node('F');
         Node G = new Node('G');
         Node H = new Node('H');
+
         A.left = B;
         A.right = C;
         B.left = D;
@@ -33,6 +34,7 @@ public class BinaryTree {
         E.right = H;
         C.left = F;
         C.right = G;
+
         return A;
     }
     // 前序遍历
@@ -80,7 +82,6 @@ public class BinaryTree {
             cur = cur.right;
         }
     }
-
     // 后序遍历
     void postOrderTraversal(Node root){
         if(root == null) {
@@ -92,22 +93,23 @@ public class BinaryTree {
     }
     void postOrderTraversal2(Node root) {
         Stack<Node> stack = new Stack<>();
-        List<Node> list = new ArrayList<>();
+        Node flag = null;
         Node cur = root;
         while(cur != null || !stack.empty()) {
             while (cur != null) {
                 stack.push(cur);
                 cur = cur.left;
-
             }
             cur = stack.peek();
-            list.add(cur);
-            if(cur.right == null || list.contains(cur)) {
+
+            if(cur.right == null || cur.right == flag) {
                 System.out.print(cur.value + " ");
                 stack.pop();
+                flag = cur;
+                cur = null;
+            } else {
+                cur = cur.right;
             }
-            cur = cur.right;
-
         }
 
     }
@@ -178,16 +180,44 @@ public class BinaryTree {
 
     void levelOrderTraversal(Node root) {
         Queue<Node> queue = new LinkedList<>();
-        Node cur = root;
-        while(cur != null) {
-            System.out.println(cur.value);
-
-                queue.offer(cur);
-                cur = cur.left;
-
-//                cur = queue.poll();
-//                cur = cur.right;
-
+        if(root != null) {
+            queue.offer(root);
         }
+        while(!queue.isEmpty()) {
+            Node cur = queue.peek();
+            if(cur.left != null ) {
+                queue.offer(cur.left);
+            }
+            if(cur.right != null) {
+                queue.offer(cur.right);
+            }
+            System.out.print( queue.poll().value + " ");
+        }
+    }
+
+
+    // 判断一棵树是不是完全二叉树
+    boolean isCompleteTree(Node root) {
+        Queue<Node>  queue = new LinkedList<>();
+        if(root != null) {
+            queue.offer(root);
+        }
+        while(!queue.isEmpty()) {
+            Node cur = queue.poll();
+            if(cur != null) {
+                queue.offer(cur.left);
+                queue.offer(cur.right);
+            } else {
+                break;
+            }
+        }
+        while(!queue.isEmpty()) {
+            Node cur = queue.poll();
+            if(cur != null) {
+                return false;
+            }
+        }
+        return true;
+
     }
 }
