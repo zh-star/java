@@ -39,5 +39,6 @@ public class TestDemo {
 
         binaryTree.levelOrderTraversal(root);
         System.out.println(binaryTree.isCompleteTree(root));
+        System.out.println(binaryTree.MaxDepth(root));
     }
 }
