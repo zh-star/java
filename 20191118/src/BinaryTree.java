@@ -221,7 +221,6 @@ public class BinaryTree {
 
     }
 
-
     public int MaxDepth(Node root) {
         if(root == null) {
             return 0;
@@ -230,6 +229,5 @@ public class BinaryTree {
         int right = MaxDepth(root.right) + 1;
         return left > right ? left : right;
     }
-
 
 }
