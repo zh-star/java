@@ -33,7 +33,5 @@ public class TestDemo1 {
         binaryTree.postorderTraversal(root);
         System.out.println();
 
-
-
     }
 }
