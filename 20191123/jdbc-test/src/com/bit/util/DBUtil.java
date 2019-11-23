@@ -20,6 +20,7 @@ public class DBUtil {
         Connection connection = null;
         Statement statement = null;
         ResultSet resultSet = null;
+
         try {
             Class.forName("com.mysql.jdbc.Driver");
             connection =
