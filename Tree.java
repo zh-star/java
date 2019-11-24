@@ -359,34 +359,43 @@ class Solution {
 
 //4.二叉搜索树与双向链表 牛客网
 /**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-class Solution {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+public class TreeNode {
+    int val = 0;
+    TreeNode left = null;
+    TreeNode right = null;
+
+    public TreeNode(int val) {
+        this.val = val;
+
+    }
+
+}
+*/
+public class Solution {
+    
+    public TreeNode prev = null;
+    public void ConvertChild(TreeNode root) {
         if(root == null) {
-            return null;
+            return;
         }
-        if(root == p || root == q) {
-            return root;
+        ConvertChild(root.left);
+        //左树已经结束
+        root.left = prev;
+        if(prev != null) {
+            prev.right = root;
+        }        
+        prev = root;
+        ConvertChild(root.right);
+    }
+    
+    public TreeNode Convert(TreeNode pRootOfTree) {
+        ConvertChild(pRootOfTree);
+        TreeNode head = pRootOfTree;
+        
+        while(head != null && head.left != null ) {
+            head = head.left;
         }
-        TreeNode leftNode = lowestCommonAncestor(root.left,p,q);
-        TreeNode rightNode = lowestCommonAncestor(root.right,p,q);
-        if(leftNode != null && rightNode !=null) {
-            return root;
-        }
-        if(leftNode != null) {
-            return leftNode;
-        }
-        if(rightNode != null) {
-            return rightNode;
-        }
-        return null;
+        return head;
     }
 }
 
