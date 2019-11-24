@@ -37,6 +37,7 @@ public class TestDemo {
        // System.out.println(binaryTree.getLeafSize1(root));//叶子节点
 
 
+        System.out.println("层序遍历");
         binaryTree.levelOrderTraversal(root);
         System.out.println(binaryTree.isCompleteTree(root));
         System.out.println(binaryTree.MaxDepth(root));

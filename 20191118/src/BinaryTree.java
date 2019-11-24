@@ -184,18 +184,20 @@ public class BinaryTree {
             queue.offer(root);
         }
         while(!queue.isEmpty()) {
-            Node cur = queue.peek();
+            Node cur = queue.poll();
+            System.out.print( cur.value + " ");
             if(cur.left != null ) {
                 queue.offer(cur.left);
             }
             if(cur.right != null) {
                 queue.offer(cur.right);
             }
-            System.out.print( queue.poll().value + " ");
         }
     }
 
+    void levelOrderTraversal2(Node root) {
 
+    }
     // 判断一棵树是不是完全二叉树
     boolean isCompleteTree(Node root) {
         Queue<Node>  queue = new LinkedList<>();
@@ -208,9 +210,11 @@ public class BinaryTree {
                 queue.offer(cur.left);
                 queue.offer(cur.right);
             } else {
+                //cur == null;说明所有的节点放完了
                 break;
             }
         }
+        //遍历队列元素，判断
         while(!queue.isEmpty()) {
             Node cur = queue.poll();
             if(cur != null) {
@@ -229,5 +233,7 @@ public class BinaryTree {
         int right = MaxDepth(root.right) + 1;
         return left > right ? left : right;
     }
+
+
 
 }
