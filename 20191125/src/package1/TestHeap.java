@@ -33,6 +33,8 @@ public class TestHeap {
                 break;
             }
         }
+
+
     }
 
     public void createHeap(int[] array) {
