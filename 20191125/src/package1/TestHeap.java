@@ -19,6 +19,7 @@ public class TestHeap {
         int parent = root;
         int child = 2*parent + 1;
         while(child < len) {
+            //当然如果这里是 <= len 的符号，就必须传下表，不能再传的是长度
             if((child + 1) < len) {
                 child = (this.elem[child] > this.elem[child+1]) ? child : child+1;
             }
@@ -40,7 +41,10 @@ public class TestHeap {
             this.usedSize ++;
         }
         for(int i = (this.usedSize-1 - 1)/2; i>= 0; i--) {
-            adjustDown(i,this.usedSize -1);
+            //这里给this.usedSize-1 或者 this.usedSize都是可以的
+            //因为 在向下调整方法中，主要是与len比较，判断是否有右孩子，最后一个下表+1，
+            // 的结果就是9 无论传9还是10都不会进入此条件了
+            adjustDown(i,this.usedSize - 1);
         }
     }
 
@@ -93,5 +97,21 @@ public class TestHeap {
             System.out.print(this.elem[i] + " ");
         }
         System.out.println();
+    }
+
+
+    //从小到大 堆排序
+    public void heapSort() {
+        int end = this.usedSize-1;
+        while(end > 0) {
+            //交换
+            int temp = this.elem[0];
+            this.elem[0] = this.elem[end];
+            this.elem[end] = temp;
+            //这里可以先end-- 之后传end,也可直接传end,
+            //因为在adjustDown() 方法中不影响，
+            adjustDown(0,end);
+            end--;
+        }
     }
 }

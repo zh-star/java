@@ -18,8 +18,9 @@ public class TestDemo1 {
         testHeap.display();
         testHeap.popHeap();
         testHeap.display();
-        //14 13 11 12 10 9 2 7 8 6
-        //14 13 11 12 10 9 2 7 8 6
+
+        testHeap.heapSort();
+        testHeap.display();
 
 
 
