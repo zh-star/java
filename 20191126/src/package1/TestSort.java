@@ -16,12 +16,12 @@ public class TestSort {
         //int[] array = {6,8,2,7,10};
         int[] array = {5,9,12,6,8,34,33,56,89,0,4,7,22,55,77};
        // insertSort(array);
-        //partion(array,0,4);
+        quickSort(array,0,array.length -1);
         //shellSort(array);
-        quickSort2(array);
+        //quickSort(array);
         System.out.println(Arrays.toString(array));
 //        selectSort(array);
-//        heapSort(array);
+        heapSort(array);
 //        System.out.println(Arrays.toString(array));
     }
     //直接插入排序 ：从数组中第二个元素开始与前面的分别进行比较，前面的大，交换，反之不交换
@@ -110,6 +110,7 @@ public class TestSort {
         int parent = root;
         int child = 2*parent + 1;
         while(child < len) {
+            //
             if((child + 1) < len) {
                 child = (array[child] > array[child+1]) ? child : child+1;
             }
@@ -126,7 +127,8 @@ public class TestSort {
     }
 
 
-    //快速排序 O(N*log(N)) 空间复杂度：O(log(n))  不稳定
+    //快速排序  递归版本
+    // O(N*log(N)) 空间复杂度：O(log(n))  不稳定
     public static int partition(int[] array,int low,int high) {
 
         int temp = array[low];
@@ -135,28 +137,24 @@ public class TestSort {
             while (low < high && array[high] >= temp) {
                 high--;
             }
-            if(low >= high) {
-                array[low] = temp;
-                break;
-            } else {
-                array[low] = array[high];
-            }
+
+            array[low] = array[high];
+
             //从后面找比基准值大的值
             while (low < high && array[low] < temp) {
                 low++;
             }
-            if(low >= high) {
-                array[low] = temp;
-                break;
-            } else {
-                array[high] = array[low];
-            }
+
+            array[high] = array[low];
+
 
         }
+        array[low] = temp;
         return low;
     }
     public static void quickSort(int[] array,int low,int high) {
         int par = partition(array,low,high);
+
         if(par > low + 1) {
             quickSort(array,low,par-1);
         }
@@ -166,11 +164,10 @@ public class TestSort {
     }
 
     public static void threeNumMid(int[] array,int low,int high) {
-        int mid = (high + low)/2;
-        int ret = array[low] < array[mid] ? array[low] : array[mid];
-        ret = array[ret] < array[high] ? array[ret] : array[high];
+
 
     }
+    //快排非递归版本 时间复杂度O(1)
     public static void quickSort2(int[] array) {
         Stack<Integer> stack = new Stack<>();
         int low = 0;

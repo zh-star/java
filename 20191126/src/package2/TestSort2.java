@@ -13,7 +13,7 @@ public class TestSort2 {
     public static void main(String[] args){
         int[] array = {5,9,12,6,8,34,33,56,89,0,4,7,22,55,77};
         //1. 插入排序
-        selectSort(array);
+        quickSort(array,0,array.length -1);
         System.out.println(Arrays.toString(array));
     }
 
@@ -74,13 +74,22 @@ public class TestSort2 {
         for (int i = (array.length-1-1)/2; i >= 0 ; i--) {
             adjustDown(array,i,array.length);
         }
+
+        int end = array.length - 1;
+        while(end > 0) {
+            int temp = array[end];
+            array[end] = array[0];
+            array[0] = temp;
+            adjustDown(array,0,end);
+            end--;
+        }
     }
     public static void adjustDown(int[] array,int root,int len) { //len 表示最后一个元素的下表
         int parent = root;
         int child = 2*parent + 1;
         while(child < len) {
-            //进入循环   说明有右子树
-            while(child + 1 < len) {
+            //进入条件   说明有右子树
+            if(child + 1 < len) {
                 // 得到 左右子树的最大值下表
                 child = array[child] > array[child + 1] ? child : child + 1;
             }
@@ -95,6 +104,31 @@ public class TestSort2 {
                 break;
             }
 
+        }
+    }
+
+    public static int partition(int[] array,int low,int high) {
+        int temp = array[low];
+        while(low < high) {
+            while(low < high && array[high] > temp) {
+                high--;
+            }
+            array[low] = array[high];
+            while(low < high && array[low] < temp) {
+                low ++;
+            }
+            array[high] = array[low];
+        }
+        array[low] = temp;
+        return  low;
+    }
+    public static void quickSort(int[] array,int low,int high) {
+        int par = partition(array,low,high);
+        if(par > low + 1) {
+            quickSort(array,low,par-1);
+        }
+        if(par < high - 1) {
+            quickSort(array,par+1,high);
         }
     }
 }
