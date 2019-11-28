@@ -11,9 +11,10 @@ import java.util.Arrays;
  */
 public class TestSort2 {
     public static void main(String[] args){
+        //int[] array = {5,9,12,6,8,34};
         int[] array = {5,9,12,6,8,34,33,56,89,0,4,7,22,55,77};
         //1. 插入排序
-        quickSort(array,0,array.length -1);
+        mergeSort(array);
         System.out.println(Arrays.toString(array));
     }
 
@@ -107,6 +108,7 @@ public class TestSort2 {
         }
     }
 
+    //快速排序
     public static int partition(int[] array,int low,int high) {
         int temp = array[low];
         while(low < high) {
@@ -131,4 +133,119 @@ public class TestSort2 {
             quickSort(array,par+1,high);
         }
     }
+
+    // 归并排序  时间复杂度O(nlogn) 空间复杂度：O(1)
+    // 稳定，如果 if(array[s1] <= array[s2]) 是< 没有 = 就是不稳定
+    public static void merge(int[] array,int low,
+                             int mid,int high){
+        int s1 = low;
+        int s2 = mid+1;
+        int len = high-low+1;
+
+        int[] tmp = new int[len];
+        int i = 0;
+        while (s1 <= mid && s2 <= high) {
+            if(array[s1] <= array[s2]) {
+                tmp[i] = array[s1];
+                i++;
+                s1++;
+            } else {
+                tmp[i] = array[s2];
+                i++;
+                s2++;
+            }
+        }
+
+        //判断两个归并段 中 是否还有归并段有数据
+        while(s1 <= mid) {
+            tmp[i] = array[s1];
+            s1++;
+            i++;
+        }
+        while(s2 <= high) {
+            tmp[i] = array[s2];
+            s2++;
+            i++;
+        }
+        for (int j = 0; j < len; j++) {
+            array[low + j] = tmp[j];
+        }
+    }
+
+    public static void mergeSort1(int[] array,int low,int high) {
+        if(low == high) {
+            return;
+        }
+        int mid = (low+high)/2;
+        mergeSort1(array,low,mid);
+
+        mergeSort1(array,mid+1,high);
+
+        //合并
+        merge(array,low,mid,high);
+    }
+
+    //非递归
+    public static void merge1(int[] array,int gap) {
+        int[] tmp = new int[array.length];
+        int i = 0;
+
+        int s1 = 0;
+        int e1 = s1+gap-1;
+        int s2 = e1+1;
+        int e2 = s2+gap-1 >=
+                array.length ? array.length-1 : s2+gap-1;
+
+        while (s2 < array.length) {
+            while (s1 <= e1 && s2 <= e2) {
+                //判断
+                if(array[s1] <= array[s2]) {
+                    tmp[i] = array[s1];
+                    i++;
+                    s1++;
+                } else {
+                    tmp[i] = array[s2];
+                    i++;
+                    s2++;
+                }
+
+            }
+            while(s1 <= e1) {
+                tmp[i] = array[s1];
+                s1++;
+                i++;
+            }
+            while(s2 <= e2) {
+                tmp[i] = array[s2];
+                s2++;
+                i++;
+            }
+            //重新s1,e1,s2,e2 位置
+            s1 = e2+1;
+            e1 = s1+gap-1;
+            s2 = e1+1;
+            e2 = s2+gap-1 >=
+                    array.length ? array.length-1 : s2+gap-1;
+        }
+        //判断s1是否有数据
+        while(s1 < array.length) {
+            tmp[i] = array[s1];
+            s1++;
+            i++;
+        }
+
+        //拷贝tmp到array
+        for (int j = 0; j < tmp.length; j++) {
+            array[j] = tmp[j];
+        }
+
+    }
+    public static void mergeSort(int[] array) {
+        for (int gap = 1; gap < array.length; gap*=2) {
+            merge1(array,gap);
+        }
+
+    }
+
+
 }
