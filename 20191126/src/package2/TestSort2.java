@@ -185,7 +185,7 @@ public class TestSort2 {
         merge(array,low,mid,high);
     }
 
-    //非递归
+    //归并排序 非递归
     public static void merge1(int[] array,int gap) {
         int[] tmp = new int[array.length];
         int i = 0;
@@ -246,6 +246,5 @@ public class TestSort2 {
         }
 
     }
-
 
 }
