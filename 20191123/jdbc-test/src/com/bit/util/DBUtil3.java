@@ -11,7 +11,7 @@ import java.sql.SQLException;
 
 /**
  * Created with IntelliJ IDEA.
- * Description:
+ * Description: 插入
  * User: STAR
  * Date: 2019 -11
  * Time: 10:40
@@ -36,7 +36,6 @@ public class DBUtil3 {
             String sql = "insert into stu" +
                     "(id,name,chinese,math,english)" +
                     " value (?,?,?,?,?)";
-
             statement = connection.prepareStatement(sql);
             statement.setInt(1, 1);
             statement.setString(2, "ABC");
@@ -62,7 +61,4 @@ public class DBUtil3 {
             }
         }
     }
-
-
-
 }
