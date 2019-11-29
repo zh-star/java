@@ -11,11 +11,12 @@ import java.util.Arrays;
  */
 public class TestSort2 {
     public static void main(String[] args){
-        //int[] array = {5,9,12,6,8,34};
+        int[] array1 = {5,9,20,89,8,34};
         int[] array = {5,9,12,6,8,34,33,56,89,0,4,7,22,55,77};
+        int[] ret = intersection(array1,array);
         //1. 插入排序
-        mergeSort(array);
-        System.out.println(Arrays.toString(array));
+        //mergeSort(array);
+        System.out.println(Arrays.toString(ret));
     }
 
     //1. 插入排序
@@ -178,9 +179,7 @@ public class TestSort2 {
         }
         int mid = (low+high)/2;
         mergeSort1(array,low,mid);
-
         mergeSort1(array,mid+1,high);
-
         //合并
         merge(array,low,mid,high);
     }
@@ -245,6 +244,23 @@ public class TestSort2 {
             merge1(array,gap);
         }
 
+    }
+
+
+    public static int[] intersection(int[] nums1, int[] nums2) {
+        int len =  nums1.length < nums2.length ?  nums1.length : nums2.length;
+        int[] ret = new int[len];
+        int k = 0;
+        for(int i = 0; i < nums1.length; i++) {
+            for(int j = 0; j < nums2.length; j++) {
+                if(nums1[i] == nums2[j]) {
+                    ret[k] = nums2[j];
+                    k++;
+                    break;
+                }
+            }
+        }
+        return ret;
     }
 
 }
