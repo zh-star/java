@@ -42,6 +42,7 @@ public class TestSort2 {
             shell(array,drr[i]);
         }
     }
+
     public static void shell(int[] array,int gap) {
         for (int i = gap; i < array.length; i++) {
             int j = i - gap;
