@@ -86,6 +86,7 @@ public class TestSort2 {
             end--;
         }
     }
+
     public static void adjustDown(int[] array,int root,int len) { //len 表示最后一个元素的下表
         int parent = root;
         int child = 2*parent + 1;
