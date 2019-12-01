@@ -226,4 +226,65 @@ public class TestSort {
         }
     }
 
+    //归并排序 非递归
+    public static void merge1(int[] array,int gap) {
+        int[] tmp = new int[array.length];
+        int i = 0;
+
+        int s1 = 0;
+        int e1 = s1+gap-1;
+        int s2 = e1+1;
+        int e2 = s2+gap-1 >=
+                array.length ? array.length-1 : s2+gap-1;
+
+        while (s2 < array.length) {
+            while (s1 <= e1 && s2 <= e2) {
+                //判断
+                if(array[s1] <= array[s2]) {
+                    tmp[i] = array[s1];
+                    i++;
+                    s1++;
+                } else {
+                    tmp[i] = array[s2];
+                    i++;
+                    s2++;
+                }
+
+            }
+            while(s1 <= e1) {
+                tmp[i] = array[s1];
+                s1++;
+                i++;
+            }
+            while(s2 <= e2) {
+                tmp[i] = array[s2];
+                s2++;
+                i++;
+            }
+            //重新s1,e1,s2,e2 位置
+            s1 = e2+1;
+            e1 = s1+gap-1;
+            s2 = e1+1;
+            e2 = s2+gap-1 >=
+                    array.length ? array.length-1 : s2+gap-1;
+        }
+        //判断s1是否有数据
+        while(s1 < array.length) {
+            tmp[i] = array[s1];
+            s1++;
+            i++;
+        }
+
+        //拷贝tmp到array
+        for (int j = 0; j < tmp.length; j++) {
+            array[j] = tmp[j];
+        }
+
+    }
+    public static void mergeSort(int[] array) {
+        for (int gap = 1; gap < array.length; gap*=2) {
+            merge1(array,gap);
+        }
+
+    }
 }
