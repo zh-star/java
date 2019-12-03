@@ -64,6 +64,7 @@ public class TestDome1 {
                 }
             }
         }
+
         //遍历 minheap
         for (Map.Entry<String,Integer> entry: minHeap) {
             ret.add(0,entry.getKey());
