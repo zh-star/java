@@ -65,10 +65,10 @@ public class TestDome1 {
             }
         }
 
-//        for (int i = 0; i < k; i++) {
-//            String tmp = minHeap.poll().getKey();
-//            ret.add(tmp);
-//        }
+        for (int i = 0; i < k; i++) {
+            String tmp = minHeap.poll().getKey();
+            ret.add(tmp);
+        }
         return ret;
     }
 
