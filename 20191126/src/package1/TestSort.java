@@ -21,7 +21,7 @@ public class TestSort {
         //quickSort(array);
         System.out.println(Arrays.toString(array));
 //        selectSort(array);
-        heapSort(array);
+       // heapSort(array);
 //        System.out.println(Arrays.toString(array));
     }
     //直接插入排序 ：从数组中第二个元素开始与前面的分别进行比较，前面的大，交换，反之不交换
@@ -205,7 +205,7 @@ public class TestSort {
     public static void merge(int[] array,int low,int mid,int high) {
         int s1 = low;
         int s2 = mid+1;
-        int len = high - low +1; //每一段的长度
+        int len = high-low +1; //每一段的长度
         int[] tmp = new int[len];
         int i = 0;
         while(s1 <= mid && s2 <= high) {
