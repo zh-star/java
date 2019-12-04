@@ -14,13 +14,13 @@ public class TestSort2 {
     public static void main(String[] args){
         //int[] array = {5,6,8,2,7,10};
         int[] array = {5,9,12,6,8,34,33,56,89,0,4,7,22,55,77};
-//        Random random = new Random();
-//        int[] array3 = new int[10000];
-//        for (int i = 0; i < array3.length; i++) {
-//            array3[i] = random.nextInt(10000);
-//        }
-//
-//        long time1 = System.currentTimeMillis();
+        Random random = new Random();
+        int[] array3 = new int[10000];
+        for (int i = 0; i < array3.length; i++) {
+            array3[i] = random.nextInt(10000);
+        }
+
+        long time1 = System.currentTimeMillis();
         //insertSort(array1);
         
         //shellSort(array1);
@@ -31,8 +31,8 @@ public class TestSort2 {
 
         //bubbleSort(array3);
         mergeSort(array,0,array.length-1);
-//        long time2 = System.currentTimeMillis();
-//        System.out.println(time2-time1);
+        long time2 = System.currentTimeMillis();
+        System.out.println(time2-time1);
         System.out.println(Arrays.toString(array));
     }
     //1.直接插入排序
