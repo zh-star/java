@@ -90,6 +90,7 @@ public class TestSort {
     //   时间复杂度O(n*log(n))   空间复杂度;O(1)      不稳定
     public static void heapSort(int[] array) {
         //先将堆调整为大根堆
+        // 记住 大根堆并不是 排序好的  只是 根节点比叶子节点都大
         for (int i = (array.length-1-1)/2; i >= 0; i--) {
             adjustDown(array,i,array.length);
         }

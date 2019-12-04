@@ -11,7 +11,29 @@ import java.util.*;
  */
 public class TestDome1 {
 
+    //测试 BinarySearchTree
     public static void main(String[] args){
+        BinarySearchTree bTree = new  BinarySearchTree();
+        int[] array = {10,7,8,2,11,15,9};
+        for (int i = 0; i < array.length; i++) {
+            bTree.insert(array[i]);
+        }
+        bTree.prevOrder(bTree.root);
+        System.out.println();
+        bTree.InOrder(bTree.root);
+        System.out.println();
+        try {
+            BinarySearchTree.Node ret = bTree.search(10);
+            System.out.println(ret.val);
+        }catch (NullPointerException e) {
+            e.printStackTrace();
+            System.out.println("ret为空");
+        }
+
+        bTree.remove(2);
+        bTree.InOrder(bTree.root);
+    }
+    public static void main3(String[] args){
         String[] words = {"i", "love", "leetcode", "i", "love", "coding"};
         List<String> lsit =  topKFrequent(words,1);
         System.out.println(lsit);
