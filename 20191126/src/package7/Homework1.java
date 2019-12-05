@@ -51,4 +51,39 @@ public class Homework1 {
         }
         return -1;
     }
+    public int firstUniqChar_3(String s) {
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (s.indexOf(ch) == s.lastIndexOf(ch)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public int firstUniqChar_4(String s) {
+        boolean[] notUniq = new boolean[26];
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (!notUniq[ch -'a']) {
+                if (s.indexOf(ch) == s.lastIndexOf(ch)) {
+                    return i;
+                } else {
+                    notUniq[ch - 'a'] = true;
+                }
+            }
+        }
+        return -1;
+    }
+
+    public int firstUniqChar5(String s) {
+        int res = -1;
+        for (char ch = 'a'; ch <= 'z'; ch++) {
+            int index = s.indexOf(ch);
+            if (index != -1 && index == s.lastIndexOf(ch)) {
+                res = (res == -1 || res > index) ? index : res;
+            }
+        }
+        return res;
+    }
 }
