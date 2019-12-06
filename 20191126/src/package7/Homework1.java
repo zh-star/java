@@ -10,7 +10,7 @@ import java.util.*;
  * Time: 17:05
  */
 public class Homework1 {
-    public static void main(String[] args){
+    public static void main1(String[] args){
         String s = "leetcode";
         int ret = firstUniqChar(s);
         System.out.println(ret);
@@ -195,5 +195,74 @@ public class Homework1 {
     }
 
 
+    public static void main(String[] args){
+        String[] str = {"a","aa","aaa","aaaa"};
+        //System.out.println(numSmallerByFrequency(str));
+    }
+    //819. 最常见的单词
+    //
+//    public String mostCommonWord(String paragraph, String[] banned) {
+//        Map<String,Integer> map = new HashMap<>();
+//        // 全部转为小写字母
+//        paragraph = paragraph.toLowerCase();
+//
+//    }
 
+    //1170. 比较字符串最小字母出现频次
+    public static int[] numSmallerByFrequency(String[] queries, String[] words) {
+        List<Integer> list = new ArrayList<>();
+        //遍历words,将字符串数组中的字符串中的最小字母对应的频数，
+        // 和 频数出现的次数 映射放入map
+        Map<Integer,Integer> map = new HashMap<>();
+        for(int i = 0; i < words.length; i ++) {
+            int temp = fs(words[i]);
+            map.put(temp,map.getOrDefault(temp,0)) ;
+        }
+        //遍历queries(查询) 字符串数组 判断 每个字符串中最小字符的出现的频数，
+        // 小于 map中value值的和
+//        for(int i = 0; i < queries.length; i ++) {
+//            int temp = fs(queries[i]);
+//            for (int j = map.; j < map.values().size(); j++) {
+//                if(temp < map.get()) {
+//
+//                }
+//            }
+//
+//                list.add(i+1);
+//
+//        }
+
+        // 统计
+        int [] counter = new int[12];
+        for (int i = 0; i < words.length; i++)
+            counter[fs(words[i])]++;
+
+        // 累和
+        for (int i = 9; i >= 0; i--)
+            counter[i] += counter[i + 1];
+
+        // 拿值
+        int[] ret = new int[queries.length];
+        for (int i = 0; i < queries.length; i++)
+            ret[i] = counter[fs(queries[i]) + 1];
+
+        return ret;
+    }
+    //求得 字符串中最小的字母
+    private static int fs(String str) {
+        Map<String,Integer> map1 = new HashMap<>(); // 存放 queries 中 字符串对应的频率
+        int minChar = str.charAt(0);
+        int count = 0;
+        for(int i = 1; i < str.length(); i++) {
+            if(minChar > str.charAt(i)) {
+                minChar = str.charAt(i);
+            }
+        }
+        for (int i = 0; i < str.length(); i++) {
+            if(minChar == str.charAt(i)) {
+                count ++;
+            }
+        }
+        return count;
+    }
 }
