@@ -1,7 +1,6 @@
 package package7;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,7 +16,7 @@ public class Homework1 {
         System.out.println(ret);
     }
 
-    //387. 字符串中的第一个唯一字符
+    //1. 387. 字符串中的第一个唯一字符
     public static int firstUniqChar(String s) {
         Map<Character,Integer> map = new HashMap<>();
         char[] chars = s.toCharArray();
@@ -37,6 +36,7 @@ public class Homework1 {
         return -1;
     }
 
+    //2. 字符串中的第一个唯一字符
     public int firstUniqChar2(String s) {
         int[] freq = new int[26];
         char[] chars = s.toCharArray();
@@ -86,5 +86,114 @@ public class Homework1 {
         }
         return res;
     }
+
+
+    //3. 349. 两个数组的交集
+    public int[] intersection(int[] nums1, int[] nums2) {
+        Set<Integer> set1 = new HashSet<>();
+        for(int n : nums1) {
+            set1.add(n);
+        }
+        int index = 0;
+        for(int i = 0; i < nums2.length; i ++) {
+            if(set1.contains(nums2[i])) {
+                nums2[index++] = nums2[i];
+                //需要删除，否则 下次碰到相同的数值时会在数组的下一个位置再放一次
+                set1.remove(nums2[i]);
+            }
+        }
+        return Arrays.copyOfRange(nums2, 0, index);
+    }
+    //4. 350. 两个数组的交集 II
+    //方法1：
+    public int[] intersect1(int[] nums1, int[] nums2) {
+        //1.先对两个数组进行排序
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+        List<Integer> list = new ArrayList<>();
+        //2.同时遍历两个数组，谁小 谁向前先走一步，直到两值相等时，将其值添加进list
+        for (int i = 0, j = 0; i < nums1.length && j < nums2.length; ) {
+            if (nums1[i] < nums2[j]) {
+                i++;
+            } else if (nums1[i] > nums2[j]) {
+                j++;
+            } else {
+                list.add(nums1[i]);
+                i++;
+                j++;
+            }
+        }
+        //3.将list中的值转为数组存放
+        int[] res = new int[list.size()];
+        for (int i = 0; i < list.size(); i++) {
+            res[i] = list.get(i);
+        }
+        return res;
+    }
+    //方法2：
+    public int[] intersect2(int[] nums1, int[] nums2) {
+        //1.将num1放进list1
+        List<Integer> list1 = new ArrayList<>();
+        for (int num : nums1) {
+            list1.add(num);
+        }
+        //2.遍历num2，若list1中存在，就将其放入一个新的list2中，并将list1中的删除
+        List<Integer> list2 = new ArrayList<>();
+        for (int num : nums2) {
+            if (list1.contains(num)) {
+                list2.add(num);
+                // 从 list1 除去已匹配的数值
+                list1.remove(Integer.valueOf(num));
+            }
+        }
+        //3.将list2转化为数组
+        int[] res = new int[list2.size()];
+        int i = 0;
+        for (int num : list2) {
+            res[i++] = num;
+        }
+        return res;
+    }
+    //方法3：
+    public int[] intersect3(int[] nums1, int[] nums2) {
+        Map<Integer, Integer> map = new HashMap<>(nums1.length);
+        //1. 将 nums1 出现的数值及频次放入映射的Map中
+        for (int num1 : nums1) {
+            map.put(num1,map.getOrDefault(num1,0)+1);
+        }
+        //2. 遍历num2,找到在map中存在的值，就将其放入list中，
+        // 并将其在map中的映射的value(次数) -1;
+        List<Integer> list = new ArrayList<>();
+        for (int num2 : nums2) {
+            // 获取映射中该数值出现的频次
+            Integer count = map.get(num2);
+            if (count != null && count != 0) {
+                list.add(num2);
+                // 注意每次匹配后，该数值的频次需要减 1（nums1 和 nums2 匹配的数值的频次要相同）
+                map.put(num2, --count);
+            }
+        }
+        //3. 将list中的值放入数组中
+        int[] ret = new int[list.size()];
+        for(int i = 0; i < ret.length; i ++) {
+            ret[i] = list.get(i);
+        }
+        return ret;
+    }
+    //5. 205. 同构字符串
+    public boolean isIsomorphic(String s, String t) {
+        //遍历一个字符串
+        for (int i = 0; i < s.toCharArray().length; i++) {
+
+            //charAt​(int index) 返回指定索引处的 char值
+            //indexOf​(int ch) 返回指定字符第一次出现的字符串内的索引。
+            if (s.indexOf(s.charAt(i)) != t.indexOf(t.charAt(i))){
+                return false;
+            }
+        }
+        return true;
+    }
+
+
 
 }
