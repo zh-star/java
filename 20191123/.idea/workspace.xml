@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152d18dc-596e-4100-a309-f7809393e199" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f0be0e42-3e5e-4a58-a36e-f1293b571ea6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f0be0e42-3e5e-4a58-a36e-f1293b571ea6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190930LinkedList/src/Deom1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191126/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191126/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191126/out/production/20191126/package1/TestSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../20191126/out/production/20191126/package1/TestSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191126/out/production/20191126/package2/TestSort2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../20191126/out/production/20191126/package2/TestSort2.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +33,19 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="test" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="emp: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -76,15 +90,16 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="269" />
-          <entry key="sql" value="417" />
+          <entry key="sql" value="523" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -93,7 +108,7 @@
           <entry key="JAVA" value="268" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SQL" value="1" />
-          <entry key="Scratch" value="417" />
+          <entry key="Scratch" value="523" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,16 +116,17 @@
           <entry key="book" value="1" />
           <entry key="borrow_info" value="1" />
           <entry key="category" value="1" />
-          <entry key="classes" value="1" />
-          <entry key="course" value="1" />
+          <entry key="classes" value="2" />
+          <entry key="course" value="4" />
+          <entry key="emp" value="3" />
           <entry key="java" value="5" />
-          <entry key="score" value="1" />
-          <entry key="student" value="1" />
+          <entry key="score" value="2" />
+          <entry key="student" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="7" />
+          <entry key="Database Element" value="16" />
           <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
@@ -121,49 +137,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f0be0e42-3e5e-4a58-a36e-f1293b571ea6/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="103" column="38" lean-forward="true" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
+            <state relative-caret-position="379">
+              <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1184">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-676">
-              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <entry file="das://f0be0e42-3e5e-4a58-a36e-f1293b571ea6/schema/test/table/emp">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-544">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-530">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <entry file="das://f0be0e42-3e5e-4a58-a36e-f1293b571ea6/schema/test/table/course">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -187,9 +180,9 @@
         <option value="$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil.java" />
         <option value="$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil3.java" />
         <option value="$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil4.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f0be0e42-3e5e-4a58-a36e-f1293b571ea6/console.sql" />
         <option value="$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil2.java" />
         <option value="$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil5.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f0be0e42-3e5e-4a58-a36e-f1293b571ea6/console.sql" />
       </list>
     </option>
   </component>
@@ -199,8 +192,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="313" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="312" />
     <option name="width" value="1617" />
     <option name="height" value="717" />
   </component>
@@ -210,6 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,18 +247,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575106638848" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575708312482" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20191118" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -390,6 +383,7 @@
       <workItem from="1574584498786" duration="600000" />
       <workItem from="1575033130830" duration="5644000" />
       <workItem from="1575075651882" duration="13762000" />
+      <workItem from="1575680624352" duration="5558000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1574501624743</created>
@@ -416,7 +410,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32487000" />
+    <option name="totallyTimeSpent" value="38045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,9 +422,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15359741" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15602264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -487,30 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f0be0e42-3e5e-4a58-a36e-f1293b571ea6/schema/test/table/score">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f0be0e42-3e5e-4a58-a36e-f1293b571ea6/schema/test/table/course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f0be0e42-3e5e-4a58-a36e-f1293b571ea6/schema/test/table/classes">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -542,43 +512,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f0be0e42-3e5e-4a58-a36e-f1293b571ea6/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="103" column="38" lean-forward="true" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
+        <state relative-caret-position="1378">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-530">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-676">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="494">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jdbc-test/src/com/bit/util/DBUtil5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="104">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f0be0e42-3e5e-4a58-a36e-f1293b571ea6/schema/test/table/student">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f0be0e42-3e5e-4a58-a36e-f1293b571ea6/schema/test/table/score">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f0be0e42-3e5e-4a58-a36e-f1293b571ea6/schema/test/table/classes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f0be0e42-3e5e-4a58-a36e-f1293b571ea6/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f0be0e42-3e5e-4a58-a36e-f1293b571ea6/schema/test/table/emp">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f0be0e42-3e5e-4a58-a36e-f1293b571ea6/schema/test/table/course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
