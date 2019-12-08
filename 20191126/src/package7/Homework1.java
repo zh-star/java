@@ -131,6 +131,7 @@ public class Homework1 {
         }
         return res;
     }
+
     //方法2：
     public int[] intersect2(int[] nums1, int[] nums2) {
         //1.将num1放进list1
