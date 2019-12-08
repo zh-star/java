@@ -104,6 +104,7 @@ public class Homework1 {
         }
         return Arrays.copyOfRange(nums2, 0, index);
     }
+
     //4. 350. 两个数组的交集 II
     //方法1：
     public int[] intersect1(int[] nums1, int[] nums2) {
