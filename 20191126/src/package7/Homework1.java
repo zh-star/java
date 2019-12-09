@@ -182,6 +182,7 @@ public class Homework1 {
         }
         return ret;
     }
+
     //5. 205. 同构字符串
     public boolean isIsomorphic(String s, String t) {
         //遍历一个字符串
