@@ -45,7 +45,7 @@
     <session id="1979442707">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
@@ -54,20 +54,20 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="13821" />
+          <entry key="java" value="13822" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13821" />
+          <entry key="JAVA" value="13822" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
@@ -88,17 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/package7/Homework1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29718">
-              <caret line="1169" column="40" selection-start-line="1169" selection-start-column="40" selection-end-line="1169" selection-end-column="40" />
+            <state relative-caret-position="-1456">
+              <caret line="133" selection-start-line="133" selection-end-line="133" />
             </state>
           </provider>
         </entry>
@@ -106,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package7/HashBuck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1794">
-              <caret line="71" column="32" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="32" />
+            <state relative-caret-position="-166">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
               <folding>
                 <element signature="e#448#449#0" expanded="true" />
                 <element signature="e#502#503#0" expanded="true" />
@@ -121,21 +112,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
               <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/TreeMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10894">
-              <caret line="459" column="30" selection-start-line="459" selection-start-column="30" selection-end-line="459" selection-end-column="30" />
-              <folding>
-                <element signature="e#8418#8419#0" expanded="true" />
-                <element signature="e#8445#8446#0" expanded="true" />
-                <element signature="e#11334#11335#0" expanded="true" />
-                <element signature="e#11377#11378#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -192,7 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,17 +176,22 @@
               <item name="20191126" type="b2602c69:ProjectViewProjectNode" />
               <item name="20191126" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="20191126" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20191126" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575805627441" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575806440711" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -328,7 +309,8 @@
       <workItem from="1575507489750" duration="8798000" />
       <workItem from="1575594216603" duration="16557000" />
       <workItem from="1575680512491" duration="66000" />
-      <workItem from="1575805315311" duration="310000" />
+      <workItem from="1575805315311" duration="1407000" />
+      <workItem from="1575886685626" duration="1698000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1574867389031</created>
@@ -498,17 +480,23 @@
       <option name="project" value="LOCAL" />
       <updated>1575805350040</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="git">
+      <created>1575805659175</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1575805659175</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118136000" />
+    <option name="totallyTimeSpent" value="120931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.16087309" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49822694" visible="true" weight="0.16329831" />
       <window_info id="Structure" order="1" sideWeight="0.50177306" side_tool="true" weight="0.15278901" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -665,28 +653,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/package7/Homework1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29718">
           <caret line="1169" column="40" selection-start-line="1169" selection-start-column="40" selection-end-line="1169" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package7/HashBuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1794">
-          <caret line="71" column="32" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="32" />
-          <folding>
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -707,6 +677,24 @@
             <element signature="e#11334#11335#0" expanded="true" />
             <element signature="e#11377#11378#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package7/HashBuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/package7/Homework1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1456">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
     </entry>
