@@ -7,7 +7,6 @@ package package7;
  * Date: 2019 -12
  * Time: 11:19
  */
-
 public class HashBuck<K,V> {
     static class Node<K,V> {
         public K key;
@@ -67,7 +66,6 @@ public class HashBuck<K,V> {
         }
         this.array = newArray;
     }
-
     public V get(K key) {
         int index = key.hashCode()%array.length;
         for (Node<K,V> cur = array[index]; cur != null; cur = cur.next) {

@@ -87,7 +87,6 @@ public class Homework1 {
         return res;
     }
 
-
     //3. 349. 两个数组的交集
     public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> set1 = new HashSet<>();
