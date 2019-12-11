@@ -13,26 +13,27 @@ import java.util.Random;
 public class TestSort2 {
     public static void main(String[] args){
         //int[] array = {5,6,8,2,7,10};
-        int[] array = {5,9,12,6,8,34,33,56,89,0,4,7,22,55,77};
-        Random random = new Random();
-        int[] array3 = new int[10000];
-        for (int i = 0; i < array3.length; i++) {
-            array3[i] = random.nextInt(10000);
-        }
-
-        long time1 = System.currentTimeMillis();
-        //insertSort(array1);
-        
-        //shellSort(array1);
-
-        //selectSort(array1);
-
-        //heapSort(array3);
-
-        //bubbleSort(array3);
-        mergeSort(array,0,array.length-1);
-        long time2 = System.currentTimeMillis();
-        System.out.println(time2-time1);
+        int[] array = {5,9,12,6,8,34};
+        quickSort(array);
+//        Random random = new Random();
+//        int[] array3 = new int[10000];
+//        for (int i = 0; i < array3.length; i++) {
+//            array3[i] = random.nextInt(10000);
+//        }
+//
+//        long time1 = System.currentTimeMillis();
+//        //insertSort(array1);
+//
+//        //shellSort(array1);
+//
+//        //selectSort(array1);
+//
+//        //heapSort(array3);
+//
+//        //bubbleSort(array3);
+//        mergeSort(array,0,array.length-1);
+//        long time2 = System.currentTimeMillis();
+//        System.out.println(time2-time1);
         System.out.println(Arrays.toString(array));
     }
     //1.直接插入排序
@@ -152,11 +153,11 @@ public class TestSort2 {
     private static int partition(int[] array,int low,int high) {
         int temp = array[low];
         while(low < high) {
-            while(low < high && array[high] > temp) {
+            while(low < high && array[high] < temp) {
                 high--;
             }
             array[low] = array[high];
-            while(low < high && array[low] < temp) {
+            while(low < high && array[low] > temp) {
                 low++;
             }
             array[high] = array[low];
