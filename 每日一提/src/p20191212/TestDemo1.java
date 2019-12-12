@@ -30,6 +30,8 @@ public class TestDemo1 {
             System.out.println(sum);
         }
     }
+
+
     // 2. 数组的逆序对个数 一组数据 , 前一个 只要大于后一个值，就组成一个逆序对，
     // 使用归并排序
     public static void main(String[] args){
