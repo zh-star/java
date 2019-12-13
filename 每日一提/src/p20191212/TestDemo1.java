@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
- * Description:
+ * Description:  每日一题2 12-11
  * User: STAR
  * Date: 2019 -12
  * Time: 15:19
