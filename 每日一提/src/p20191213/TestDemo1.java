@@ -11,6 +11,10 @@ import java.util.*;
  */
 public class TestDemo1 {
     // 读入一个字符串 ，求得字符串中 连续数字最长的数字串
+    // 创建两个StringBuffer类型字符串， temp  ret
+    //1.遍历原字符串，若出现数组，开始循环将其放入 temp
+    //2. 判断 如果 ret 字符串的长度 >  temp 字符串的长度，将temp 复制给 ret 记住 不是直接拷地址
+    //3. 打印ret
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String  str = sc.next();
