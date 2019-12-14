@@ -71,8 +71,8 @@ public class TestDemo1 {
             return 0;
         }
         int mid = (l + r) / 2;
-        //逆序对的总数=左边数组中的逆序对的数量+右边数组中逆序对的数量+左右结合成新的顺序数组时中出现的
-        //逆序对的数量；
+        //逆序对的总数=左边数组中的逆序对的数量+右边数组中逆序对的数量+
+        // 左右结合成新的顺序数组时中出现的逆序对的数量；
         return mergeSortRecursion(arr, l, mid) + mergeSortRecursion(arr, mid + 1, r) +
                 merge(arr, l, mid, r);
     }
@@ -86,8 +86,8 @@ public class TestDemo1 {
             if (arr[i] <= arr[j]) {
                 temp[index++] = arr[i++];
             } else {
-    // 当前一个数组元素大于后一个数组元素时，累加逆序对
-    // s[i] > s[j] 推导出 s[i]...s[mid] > s[j]
+                // 当前一个数组元素大于后一个数组元素时，累加逆序对
+                // s[i] > s[j] 推导出 s[i]...s[mid] > s[j]
                 inverseNum += (mid - i + 1);
                 temp[index++] = arr[j++];
             }
