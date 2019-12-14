@@ -76,6 +76,7 @@ public class TestDemo1 {
         return mergeSortRecursion(arr, l, mid) + mergeSortRecursion(arr, mid + 1, r) +
                 merge(arr, l, mid, r);
     }
+
     public static int merge(int[] arr, int left, int mid, int right) {
         int[] temp = new int[right - left + 1];
         int index = 0;
