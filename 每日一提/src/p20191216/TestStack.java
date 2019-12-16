@@ -38,6 +38,7 @@ public class TestStack {
         beibao(s, n - 1);//若装了weight[n]后，无解，则删除该包,尝试第n-1个
     }
 
+
     public static void main2(String[] args){
         TestDemo1 testDemo1 = new TestDemo1();
         testDemo1.push(3);
