@@ -5,7 +5,7 @@ import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
- * Description:
+ * Description: 每日一题 12-15
  * User: STAR
  * Date: 2019 -12
  * Time: 15:20
@@ -30,6 +30,7 @@ public class p20191217 {
             System.out.print("No");
         }
     }
+
     //2.输入n个正数，输出 出现次数 大于等于 n/2 的数
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -48,8 +49,6 @@ public class p20191217 {
                 System.out.println(m.getKey());
             }
         }
-
-
     }
 
 
