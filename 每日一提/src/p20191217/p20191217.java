@@ -49,7 +49,7 @@ public class p20191217 {
             }
         }
 
-        Set<Integer> set = new HashSet<>();
+
     }
 
 
