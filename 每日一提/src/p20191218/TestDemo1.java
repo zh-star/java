@@ -10,6 +10,7 @@ import java.util.Scanner;
  * Time: 16:13
  */
 public class TestDemo1 {
+
     // 1. 不要二  牛客网
     public static void main(String[] agrs) {
         Scanner sc = new Scanner(System.in);
