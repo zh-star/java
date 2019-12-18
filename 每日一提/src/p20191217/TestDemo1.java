@@ -10,7 +10,7 @@ import java.util.*;
  * Date: 2019 -12
  * Time: 15:20
  */
-public class p20191217 {
+public class TestDemo1 {
 
 
     //1.计算糖果
