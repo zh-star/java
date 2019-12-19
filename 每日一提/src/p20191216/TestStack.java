@@ -10,9 +10,13 @@ import java.util.Scanner;
  * Time: 16:53
  */
 public class TestStack {
+
+    ////1.  23630-神奇的口袋
+
     static int[] weight;
     static int count=0;
     static int N;
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -39,6 +43,7 @@ public class TestStack {
     }
 
 
+    //2.  23281-用两个栈实现队列
     public static void main2(String[] args){
         TestDemo1 testDemo1 = new TestDemo1();
         testDemo1.push(3);
