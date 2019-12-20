@@ -10,6 +10,8 @@ import java.util.Scanner;
  * Time: 15:55
  */
 public class p20191219 {
+
+
     // 1. 输入一个正整数n,求n!(即阶乘)末尾有多少个0？
     // 比如: n = 10; n! = 3628800,所以答案为2
     public static void main(String[] agrs) {
@@ -21,6 +23,7 @@ public class p20191219 {
         }
         System.out.println(count);
     }
+
 
     // 2. 数字逆序打印
     public static void main2(String[] agrs) {
