@@ -1,5 +1,7 @@
 package p20191212;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -26,6 +28,7 @@ public class p20191211 {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         String str1 = sc.nextLine();
         String str2 = sc.nextLine();
         int count = 0;
@@ -56,8 +59,8 @@ public class p20191211 {
             a[low] = a[high];
             while(low < high && a[low] >= key) low++;
             a[high] = a[low];
-        } a
-                [low] = key;
+        }
+        a[low] = key;
         return low;
     }
 }
