@@ -40,7 +40,6 @@ public class p20191220 {
     //给定两个正整数int x,int y，请返回机器人的走法数目。保证x＋y小于等于12。
 
     public int countWays(int x, int y) {
-        // write code here
         // 从右下角 向左下角 走 是一样的
         // 若只剩最后 单条 不管 另一值是多少，都是只能一步走 （这个是从1开始的）
         if(x == 1 || y == 1) {
