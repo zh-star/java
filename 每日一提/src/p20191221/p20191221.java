@@ -21,6 +21,7 @@ public class p20191221 {
         Scanner sc = new Scanner(System.in);
         String N = sc.next();
         Map<Character,Integer> map = new HashMap<>();
+
         for (int i = 0; i < N.length(); i++) {
             map.put(N.charAt(i),map.getOrDefault(N.charAt(i),0) + 1);
         }
