@@ -24,6 +24,7 @@ public class p20191223 {
         //  AB[1] = AB[0] - AB[1];
         //  AB[0] = AB[0] - AB[1];
 
+
         AB[0] = AB[0] ^ AB[1];
         AB[1] = AB[0] ^ AB[1];
         AB[0] = AB[0] ^ AB[1];
