@@ -14,7 +14,7 @@ public class p20191223 {
     //1. 五缓存交换  函数内不能有局部变量的交换
     //  private int temp = 0;
     public int[] exchangeAB(int[] AB) {
-        // write code here
+
         //    temp = AB[0];
         //    AB[0] = AB[1];
         //   AB[1] = temp;
