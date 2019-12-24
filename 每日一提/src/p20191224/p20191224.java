@@ -32,7 +32,6 @@ public class p20191224 {
             i--;
             j--;
         }
-        //System.out.println(ret);
         while(i >= 0) {
             temp += (addend.charAt(i)-'0');
             ret.append(temp%10);
