@@ -42,6 +42,7 @@ public class p20191225{
         }
     }
 
+
     // 2.求
     // 2^3 =
     public static void main(String[] args) {
