@@ -10,6 +10,7 @@ import java.util.*;
  * Time: 20:03
  */
 public class p20191225{
+
     // 1. 求一串数字组成的最小数
     public static void main1(String args[]) {
         List<Integer> list = new ArrayList<>();
