@@ -51,7 +51,6 @@ public class p20191225{
         int m = sc.nextInt();
         System.out.println(GetSequeOddNum(m));
     }
-
     public static String GetSequeOddNum(int m) {
         StringBuffer sb = new StringBuffer();
         double sum = Math.pow(m,3); // 求立方
