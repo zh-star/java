@@ -24,4 +24,6 @@ public class P20191226 {
             return addAB(A ^ B, (A & B) << 1);
         }
     }
+
+
 }
