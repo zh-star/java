@@ -13,6 +13,7 @@ public class P20191226 {
     public static void main(String[] args){
         System.out.println(addAB(3, 5));
     }
+
     public static int addAB(int A, int B) {
         // write code here
         if(A == 0) {
