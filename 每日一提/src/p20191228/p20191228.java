@@ -63,7 +63,6 @@ public class p20191228 {
                 }
                 //System.out.println("card2 : " + card2);
                 // 洗牌
-
                 card.clear();
                 for (int j = 0; j < n; j++) {
                     card.add(card1.get(j));
