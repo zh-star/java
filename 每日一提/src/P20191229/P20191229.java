@@ -66,6 +66,7 @@ public class P20191229 {
 
     //2. 二叉树的镜像
 
+    // 递归
     public  void Mirror(TreeNode root) {
         if(root == null) {
             return;
