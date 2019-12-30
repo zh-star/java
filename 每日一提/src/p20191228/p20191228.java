@@ -68,7 +68,6 @@ public class p20191228 {
                     card.add(card1.get(j));
                     card.add(card2.get(j));
                 }
-
             }
 
             // 每幅牌 洗完之后打印一行
