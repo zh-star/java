@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb724d21-1117-44d0-8ed5-a334c1e08f44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p20191231/p20191231.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191126/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191126/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P20191229/P20191229.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P20191229/P20191229.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +64,7 @@
     <session id="1500725552">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="1" />
@@ -86,13 +83,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="5810" />
+          <entry key="java" value="5811" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5810" />
+          <entry key="JAVA" value="5811" />
           <entry key="PLAIN_TEXT" value="22" />
         </counts>
       </usages-collector>
@@ -165,8 +162,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/p20191231/p20191231.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-140">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="146">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -248,7 +245,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="width" value="777" />
     <option name="height" value="876" />
@@ -308,7 +305,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577796354738" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577798436546" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../2019-12-30-HTTP服务器" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -443,28 +440,7 @@
       <workItem from="1577526942674" duration="162000" />
       <workItem from="1577621481783" duration="8596000" />
       <workItem from="1577680155820" duration="7192000" />
-      <workItem from="1577753782435" duration="4637000" />
-    </task>
-    <task id="LOCAL-00001" summary="git">
-      <created>1576145743479</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1576145743480</updated>
-    </task>
-    <task id="LOCAL-00002" summary="git">
-      <created>1576145780555</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1576145780555</updated>
-    </task>
-    <task id="LOCAL-00003" summary="git">
-      <created>1576239852828</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1576239852828</updated>
+      <workItem from="1577753782435" duration="5387000" />
     </task>
     <task id="LOCAL-00004" summary="git">
       <created>1576240198618</created>
@@ -788,11 +764,32 @@
       <option name="project" value="LOCAL" />
       <updated>1577691296605</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="git">
+      <created>1577796264255</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1577796264256</updated>
+    </task>
+    <task id="LOCAL-00051" summary="git">
+      <created>1577796358187</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1577796358187</updated>
+    </task>
+    <task id="LOCAL-00052" summary="git">
+      <created>1577796391174</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1577796391174</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101162000" />
+    <option name="totallyTimeSpent" value="101912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -804,7 +801,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.17946646" />
       <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.1301536" />
@@ -1042,8 +1039,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p20191231/p20191231.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="146">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
