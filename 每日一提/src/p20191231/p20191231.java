@@ -15,11 +15,11 @@ public class p20191231 {
         int richManSum = 10;
         double strangerSum = 0.0;
         double temp = 0.01;
-        for(int i = 1; i <=30; i++) {
+        for (int i = 1; i <= 30; i++) {
             strangerSum += temp;
             temp = temp * 2;
         }
-        System.out.println(richManSum*30 + " " +String.format("%.0f", strangerSum*100));
+        System.out.println(richManSum * 30 + " " + String.format("%.0f", strangerSum * 100));
 
 
         // 自行练习  float double 小时点后保留几位
@@ -30,7 +30,7 @@ public class p20191231 {
         System.out.println(String.format("%.5f", d));
 
         // 小数点左移  右移
-        System.out.println(f/100);
-        System.out.println(f*(100));
+        System.out.println(f / 100);
+        System.out.println(f * (100));
     }
 }
