@@ -10,6 +10,7 @@ import java.util.Arrays;
  * Time: 19:22
  */
 public class p20191231 {
+
     // 1. 富翁
     public static void main(String[] args) {
         int richManSum = 10;
