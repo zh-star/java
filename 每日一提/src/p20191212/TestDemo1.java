@@ -10,6 +10,8 @@ import java.util.Scanner;
  * Time: 15:19
  */
 public class TestDemo1 {
+
+
     //1. 喝汽水问题： 3个换一瓶， 2 两瓶盖时 可向店铺借一瓶汽水
     public static void main1(String[] args){
         Scanner sc = new Scanner(System.in);
