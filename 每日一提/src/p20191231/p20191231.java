@@ -13,6 +13,7 @@ public class p20191231 {
 
     // 1. 富翁
     public static void main(String[] args) {
+
         int richManSum = 10;
         double strangerSum = 0.0;
         double temp = 0.01;
