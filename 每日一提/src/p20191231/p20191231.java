@@ -23,6 +23,7 @@ public class p20191231 {
         System.out.println(richManSum * 30 + " " + String.format("%.0f", strangerSum * 100));
 
 
+
         // 自行练习  float double 小时点后保留几位
         float f = 13.14f;
         double d = 13.14;
