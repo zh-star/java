@@ -32,6 +32,7 @@ public class p20191231 {
         System.out.println(String.format("%.2f", d));
         System.out.println(String.format("%.5f", d));
 
+
         // 小数点左移  右移
         System.out.println(f / 100);
         System.out.println(f * (100));

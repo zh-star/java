@@ -67,7 +67,7 @@
         <counts>
           <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
@@ -79,19 +79,19 @@
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="5812" />
+          <entry key="java" value="5816" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5812" />
+          <entry key="JAVA" value="5816" />
           <entry key="PLAIN_TEXT" value="22" />
         </counts>
       </usages-collector>
@@ -164,8 +164,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/p20191231/p20191231.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="106">
+              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -182,7 +182,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/ClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11570">
+            <state relative-caret-position="11518">
               <caret line="508" selection-start-line="508" selection-end-line="508" />
             </state>
           </provider>
@@ -301,7 +301,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578236496803" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578236564895" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -440,20 +440,7 @@
       <workItem from="1577872983485" duration="176000" />
       <workItem from="1578060468139" duration="1839000" />
       <workItem from="1578103554275" duration="413000" />
-    </task>
-    <task id="LOCAL-00005" summary="git">
-      <created>1576240251633</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1576240251633</updated>
-    </task>
-    <task id="LOCAL-00006" summary="git">
-      <created>1576324422030</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1576324422030</updated>
+      <workItem from="1578236418208" duration="299000" />
     </task>
     <task id="LOCAL-00007" summary="git">
       <created>1576324518528</created>
@@ -784,11 +771,25 @@
       <option name="project" value="LOCAL" />
       <updated>1578062065213</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="git">
+      <created>1578236438416</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1578236438417</updated>
+    </task>
+    <task id="LOCAL-00055" summary="git">
+      <created>1578236568753</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1578236568753</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104340000" />
+    <option name="totallyTimeSpent" value="104639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,8 +802,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.12206952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.123686336" />
       <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.1301536" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1031,15 +1033,15 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11570">
+        <state relative-caret-position="11518">
           <caret line="508" selection-start-line="508" selection-end-line="508" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p20191231/p20191231.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="106">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
         </state>
       </provider>
     </entry>
