@@ -25,6 +25,7 @@ public class p20191231 {
 
 
 
+
         // 自行练习  float double 小时点后保留几位
         float f = 13.14f;
         double d = 13.14;
