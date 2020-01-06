@@ -36,6 +36,7 @@ public class p20191228 {
 
     // 2. 洗牌
     public static void main(String[] args){
+
         Scanner scanner = new Scanner(System.in);
         int T = scanner.nextInt(); // 数据组数 需要洗几把牌
         for(int i = 0; i < T; i++) {
