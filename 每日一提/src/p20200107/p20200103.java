@@ -23,6 +23,7 @@ public class p20200103 {
         head2 = ma.addLater(1,head2);
         ma.display(head2);
         System.out.println();
+
         ListNode head3 = ma.plusAB2(head,head2);
         ma.display(head3);
 
