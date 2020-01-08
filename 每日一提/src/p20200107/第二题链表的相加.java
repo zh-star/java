@@ -61,6 +61,8 @@ public class 第二题链表的相加 {
                 newSumTail = newSumTail.next;
             } else {
                 // 有进位
+                newSumTail.next = new ListNode(sum%10);
+                newSumTail = newSumTail.next;
                 jinwei = sum / 10;
             }
             cur1 = cur1.next;
