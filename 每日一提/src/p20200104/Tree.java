@@ -29,6 +29,7 @@ public class Tree {
         }
         return isBalance(root.left) && isBalance(root.right);
     }
+
     // 求树的深度
     private int length(TreeNode root) {
         int length1 = 0;
