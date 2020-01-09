@@ -16,6 +16,8 @@ class TreeNode {
     }
 }
 public class Tree {
+
+
     // 判断平衡树
     public boolean isBalance(TreeNode root) {
         // write code here
