@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb724d21-1117-44d0-8ed5-a334c1e08f44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/p20200107/p20200107.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200107/p20200103.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一题/p20200107/p20200103.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200107/第二题链表的相加.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一题/p20200107/第二题链表的相加.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +65,7 @@
     <session id="1500725552">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="1" />
@@ -79,47 +78,38 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="7179" />
+          <entry key="java" value="7733" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7179" />
+          <entry key="JAVA" value="7733" />
           <entry key="PLAIN_TEXT" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="36" />
+          <entry key="java" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="36" />
+          <entry key="JAVA" value="37" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/p20191228/p20191228.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1794">
-              <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/P20191229/P20191229.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p20200107/p20200103.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
+            <state relative-caret-position="-1284">
               <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
             </state>
           </provider>
@@ -153,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p20200104/p20190104.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1976">
+            <state relative-caret-position="1472">
               <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -162,11 +152,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p20200104/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/p20200107/p20200107.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -261,11 +260,11 @@
         <option value="$PROJECT_DIR$/src/p20191228/p20191228.java" />
         <option value="$PROJECT_DIR$/src/P20191229/P20191229.java" />
         <option value="$PROJECT_DIR$/src/p20191231/p20191231.java" />
-        <option value="$PROJECT_DIR$/src/p20200107/p20200107.java" />
         <option value="$PROJECT_DIR$/src/p20200107/第二题链表的相加.java" />
         <option value="$PROJECT_DIR$/src/p20200107/p20200103.java" />
         <option value="$PROJECT_DIR$/src/p20200104/p20190104.java" />
         <option value="$PROJECT_DIR$/src/p20200104/Tree.java" />
+        <option value="$PROJECT_DIR$/src/p20200107/p20200107.java" />
       </list>
     </option>
   </component>
@@ -306,8 +305,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,13 +321,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="azure&#10;sqlite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578584127114" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578671561730" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../2019-12-30-HTTP服务器-v2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -347,20 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.p20200103">
-    <configuration name="P20191226" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P20191226.P20191226" />
-      <module name="每日一题" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="P20191226.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.p20200107">
     <configuration name="P20191229" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P20191229.P20191229" />
       <module name="每日一题" />
@@ -413,20 +400,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="p20200107" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p20200107.p20200107" />
+      <module name="每日一题" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p20200107.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.P20191226" />
       <item itemvalue="Application.p20191228" />
       <item itemvalue="Application.P20191229" />
       <item itemvalue="Application.p20191231" />
       <item itemvalue="Application.p20200103" />
+      <item itemvalue="Application.p20200107" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.p20200107" />
         <item itemvalue="Application.p20200103" />
         <item itemvalue="Application.p20191231" />
         <item itemvalue="Application.P20191229" />
         <item itemvalue="Application.p20191228" />
-        <item itemvalue="Application.P20191226" />
       </list>
     </recent_temporary>
   </component>
@@ -472,28 +472,8 @@
       <workItem from="1578401696742" duration="7853000" />
       <workItem from="1578413038115" duration="162000" />
       <workItem from="1578472127850" duration="9579000" />
-      <workItem from="1578583708416" duration="240000" />
-    </task>
-    <task id="LOCAL-00011" summary="git">
-      <created>1576573685228</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1576573685228</updated>
-    </task>
-    <task id="LOCAL-00012" summary="git">
-      <created>1576573722429</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1576573722429</updated>
-    </task>
-    <task id="LOCAL-00013" summary="git">
-      <created>1576573826407</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1576573826407</updated>
+      <workItem from="1578583708416" duration="519000" />
+      <workItem from="1578649627225" duration="9603000" />
     </task>
     <task id="LOCAL-00014" summary="git">
       <created>1576663525824</created>
@@ -817,11 +797,32 @@
       <option name="project" value="LOCAL" />
       <updated>1578496579903</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="git">
+      <created>1578583953711</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1578583953712</updated>
+    </task>
+    <task id="LOCAL-00061" summary="git">
+      <created>1578584132887</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1578584132887</updated>
+    </task>
+    <task id="LOCAL-00062" summary="git">
+      <created>1578584185135</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1578584185135</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123088000" />
+    <option name="totallyTimeSpent" value="132970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -836,7 +837,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.13177042" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.13338722" />
       <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.1301536" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1063,23 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/p20200107/p20200103.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p20200104/p20190104.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/p20200107/第二题链表的相加.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1742">
@@ -1114,8 +1098,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p20200104/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p20200104/p20190104.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p20200107/p20200103.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1284">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p20200107/p20200107.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
         </state>
       </provider>
     </entry>
