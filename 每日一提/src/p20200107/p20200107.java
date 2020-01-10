@@ -10,6 +10,7 @@ import java.util.*;
  * Time: 17:53
  */
 public class p20200107 {
+
     // 1.学分绩点  qian一个循环对
     public static void main1(String[] args) {
         Scanner in = new Scanner(System.in);
