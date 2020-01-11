@@ -11,6 +11,7 @@ import java.util.Scanner;
  * Time: 22:08
  */
 public class p20190104 {
+
     // 1.数字分类 (20)
     public static void main(String[] args) {
         Scanner in =  new Scanner(System.in);
