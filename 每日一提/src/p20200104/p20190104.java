@@ -45,6 +45,7 @@ public class p20190104 {
                 }
             }
         }
+
         if(sum1 != 0) {
             System.out.print(sum1 + " ");
         } else {
