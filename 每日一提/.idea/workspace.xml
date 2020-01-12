@@ -64,34 +64,34 @@
     <session id="1500725552">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="8" />
+          <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="7740" />
+          <entry key="java" value="7743" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7740" />
+          <entry key="JAVA" value="7743" />
           <entry key="PLAIN_TEXT" value="22" />
         </counts>
       </usages-collector>
@@ -133,17 +133,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p20200107/p20200103.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1284">
+            <state relative-caret-position="598">
               <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/p20200104/p20190104.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1472">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="468">
+              <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,17 +154,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p20200104/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
+            <state relative-caret-position="234">
               <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/p20200107/p20200107.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="2392">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
             </state>
           </provider>
         </entry>
@@ -203,7 +203,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/ClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11570">
+            <state relative-caret-position="11518">
               <caret line="508" selection-start-line="508" selection-end-line="508" />
             </state>
           </provider>
@@ -261,9 +261,9 @@
         <option value="$PROJECT_DIR$/src/p20191231/p20191231.java" />
         <option value="$PROJECT_DIR$/src/p20200107/第二题链表的相加.java" />
         <option value="$PROJECT_DIR$/src/p20200107/p20200103.java" />
-        <option value="$PROJECT_DIR$/src/p20200104/p20190104.java" />
         <option value="$PROJECT_DIR$/src/p20200104/Tree.java" />
         <option value="$PROJECT_DIR$/src/p20200107/p20200107.java" />
+        <option value="$PROJECT_DIR$/src/p20200104/p20190104.java" />
       </list>
     </option>
   </component>
@@ -304,6 +304,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,11 +312,21 @@
               <item name="每日一提" type="b2602c69:ProjectViewProjectNode" />
               <item name="每日一提" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="每日一提" type="b2602c69:ProjectViewProjectNode" />
+              <item name="每日一提" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="每日一提" type="b2602c69:ProjectViewProjectNode" />
+              <item name="每日一提" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="p20200104" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -323,7 +334,7 @@
     <property name="DatabaseDriversLRU" value="azure&#10;sqlite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578735775072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578841096331" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -468,20 +479,9 @@
       <workItem from="1578472127850" duration="9579000" />
       <workItem from="1578583708416" duration="519000" />
       <workItem from="1578649627225" duration="9955000" />
-    </task>
-    <task id="LOCAL-00017" summary="git">
-      <created>1576747855406</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1576747855406</updated>
-    </task>
-    <task id="LOCAL-00018" summary="git">
-      <created>1576748035917</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1576748035917</updated>
+      <workItem from="1578735763407" duration="116000" />
+      <workItem from="1578790656432" duration="48000" />
+      <workItem from="1578836532902" duration="606000" />
     </task>
     <task id="LOCAL-00019" summary="git">
       <created>1576748097493</created>
@@ -812,11 +812,25 @@
       <option name="project" value="LOCAL" />
       <updated>1578671687422</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="git">
+      <created>1578735784685</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1578735784686</updated>
+    </task>
+    <task id="LOCAL-00067" summary="git">
+      <created>1578735835639</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1578735835639</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133322000" />
+    <option name="totallyTimeSpent" value="134092000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -828,10 +842,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.13338722" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.13904607" />
       <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.1301536" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1027,10 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,6 +1065,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p20200107/p20200103.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p20200104/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/p20200107/p20200107.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2392">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>
@@ -1085,39 +1116,18 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11570">
+        <state relative-caret-position="11518">
           <caret line="508" selection-start-line="508" selection-end-line="508" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p20200104/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p20200104/p20190104.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="468">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p20200107/p20200103.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1284">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/p20200107/p20200107.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>
