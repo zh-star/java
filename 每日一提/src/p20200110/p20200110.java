@@ -10,6 +10,7 @@ import java.util.Scanner;
  * Time: 22:56
  */
 public class p20200110 {
+
     // 1. 手形数
     // 一个树的平方后几位数如果等与这个数 就叫这个数是手形数
     public static void main(String[] args) {
