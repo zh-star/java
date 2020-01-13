@@ -10,6 +10,7 @@ import java.util.Scanner;
  * Time: 22:13
  */
 public class P20190108 {
+
     // 1.数字求和
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
