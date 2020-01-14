@@ -1,4 +1,4 @@
-package P20190108;
+package p20200108;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Date: 2020 -01
  * Time: 22:13
  */
-public class P20190108 {
+public class p20200108 {
 
     // 1.数字求和
     public static void main(String[] args) {
