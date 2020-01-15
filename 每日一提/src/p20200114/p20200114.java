@@ -10,6 +10,7 @@ import java.util.*;
  * Time: 17:11
  */
 public class p20200114 {
+    // 1. 说反话
     public static void main1(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
@@ -37,7 +38,7 @@ public class p20200114 {
         return new String(str);
     }
 
-
+    // 2.
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
