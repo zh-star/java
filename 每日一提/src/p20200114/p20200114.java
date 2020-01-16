@@ -39,6 +39,8 @@ public class p20200114 {
         return new String(str);
     }
 
+
+
     // 2.
     public static void main(String[] args) {
 
