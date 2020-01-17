@@ -2,78 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb724d21-1117-44d0-8ed5-a334c1e08f44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p2020_01/P20200116/P20200116.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2020_01/p20200115/p2020015.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/P20191226/P20191226.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/P20191229/P20191229.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/P20191229/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191212/TestDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191212/p20191211.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191215/TestDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191215/TestDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191216/TestDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191216/TestStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191217/TestDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191218/TestDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191218/TestDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191219/TestDemo4题$A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191219/TestDemo4题$B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191219/TestDemo4题.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191219/p20191219.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191220/p20191220.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191221/p20191221.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191222/p20191222.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191223/p20191223.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191224/p20191224.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191225/p20191225.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191228/p20191228.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20191231/p20191231.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200104/Tree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200104/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200104/p20190104.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200107/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200107/p20200103.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200107/p20200107.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200107/第二题链表的相加.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200108/p20200108.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200108/计票统计.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200110/p20200110.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200111/p20200111.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200112/p20200112.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一题/p20200114/p20200114.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P20191226/P20191226.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/P20191226/P20191226.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P20191229/P20191229.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/P20191229/P20191229.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191212/TestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191212/TestDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191212/p20191211.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191212/p20191211.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191215/TestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191215/TestDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191215/TestDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191215/TestDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191216/TestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191216/TestDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191216/TestStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191216/TestStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191217/TestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191217/TestDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191218/TestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191218/TestDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191218/TestDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191218/TestDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191219/TestDemo4题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191219/TestDemo4题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191219/p20191219.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191219/p20191219.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191220/p20191220.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191220/p20191220.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191221/p20191221.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191221/p20191221.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191222/p20191222.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191222/p20191222.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191223/p20191223.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191223/p20191223.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191224/p20191224.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191224/p20191224.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191225/p20191225.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191225/p20191225.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191228/p20191228.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191228/p20191228.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20191231/p20191231.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2019_12/p20191231/p20191231.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20200104/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2020_01/p20200104/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20200104/p20190104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2020_01/p20200104/p20190104.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20200107/p20200103.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2020_01/p20200107/p20200103.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20200107/p20200107.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2020_01/p20200107/p20200107.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20200107/第二题链表的相加.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2020_01/p20200107/第二题链表的相加.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20200108/p20200108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2020_01/p20200108/p20200108.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20200108/计票统计.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2020_01/p20200108/计票统计.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20200110/p20200110.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2020_01/p20200110/p20200110.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20200111/p20200111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2020_01/p20200111/p20200111.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20200112/p20200112.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2020_01/p20200112/p20200112.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p20200114/p20200114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2020_01/p20200114/p20200114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2020_01/P20200116/P20200116.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2020_01/P20200116/P20200116.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -156,13 +86,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="20" />
-          <entry key="java" value="10984" />
+          <entry key="java" value="10985" />
           <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10984" />
+          <entry key="JAVA" value="10985" />
           <entry key="PLAIN_TEXT" value="27" />
         </counts>
       </usages-collector>
@@ -195,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/p2020_01/P20200116/P20200116.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            <state relative-caret-position="314">
+              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -492,14 +422,7 @@
       <workItem from="1579074399559" duration="7171000" />
       <workItem from="1579181037698" duration="732000" />
       <workItem from="1579253721403" duration="8842000" />
-      <workItem from="1579269685303" duration="596000" />
-    </task>
-    <task id="LOCAL-00032" summary="git">
-      <created>1577281647621</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1577281647621</updated>
+      <workItem from="1579269685303" duration="855000" />
     </task>
     <task id="LOCAL-00033" summary="git">
       <created>1577281782324</created>
@@ -837,11 +760,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579181771118</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="git">
+      <created>1579270723557</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1579270723558</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169129000" />
+    <option name="totallyTimeSpent" value="169388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1196,8 +1126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/p2020_01/P20200116/P20200116.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        <state relative-caret-position="314">
+          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
         </state>
       </provider>
     </entry>
