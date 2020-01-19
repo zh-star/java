@@ -13,6 +13,7 @@ public class P20200116 {
     public static void main(String[] args){
         System.out.println(countWays(4));;
     }
+
     //总结起来有：f(1)=1,f(2)=2,f(3)=4,f(4)=f(1)+f(2)+f(3);f(5)=f(2)+f(3)+f(4)
     //f(n)=f(n-1)+f(n-2)+f(n-3);
     public static int countWays1(int n) {
