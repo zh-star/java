@@ -9,6 +9,7 @@ package p2020_01.P20200116;
  * Time: 21:16
  */
 public class P20200116 {
+
     public static void main(String[] args){
         System.out.println(countWays(4));;
     }
