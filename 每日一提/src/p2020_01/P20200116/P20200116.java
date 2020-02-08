@@ -35,6 +35,7 @@ public class P20200116 {
         return (countWays(n-1) + countWays(n-2) + countWays(n-3))%1000000007;
     }
 
+
     public static int countWays(int n) {
         if(n == 1) {
             return 1;
