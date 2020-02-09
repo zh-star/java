@@ -47,6 +47,7 @@ public class P20200116 {
         if(n == 3) {
             return 4;
         }
+
         int fist = 1;
         int second = 2;
         int third = 4;
