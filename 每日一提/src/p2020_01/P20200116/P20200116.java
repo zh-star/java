@@ -38,6 +38,7 @@ public class P20200116 {
 
 
     public static int countWays(int n) {
+
         if(n == 1) {
             return 1;
         }
