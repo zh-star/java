@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dfb0cd6-ee60-4939-80be-4c92bf16b984" name="Default Changelist" comment="git">
-      <change beforePath="$PROJECT_DIR$/../20191023LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191023LinkedList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191017/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191017/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191030/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191030/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/20191031A/book/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/20191031A/book/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/20191031A/operation/BrrowOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/20191031A/operation/ExitOpration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/20191031A/user/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/20191031A/user/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/20191031A/user/NormalUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/20191031A/user/NormalUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/20191031A/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/20191031A/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191111/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191111/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191115/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191115/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191116/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191116/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191118/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191118/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191123/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191123/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191125/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191125/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191126/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191126/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191126/src/package1/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20191126/src/package1/TestSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一提/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一提/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一提/src/p2019_12/p20191215/TestDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一提/src/p2019_12/p20191215/TestDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一提/src/p2020_01/P20200116/P20200116.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一提/src/p2020_01/P20200116/P20200116.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,14 +57,14 @@
     <session id="-1189181146">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -92,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
+            <state relative-caret-position="630">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/book/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
+            <state relative-caret-position="1071">
               <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
             </state>
           </provider>
@@ -113,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/operation/ExitOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="315">
               <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
             </state>
           </provider>
@@ -122,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/operation/BorrowOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
+            <state relative-caret-position="882">
               <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24050">
+            <state relative-caret-position="19383">
               <caret line="971" column="5" selection-start-line="971" selection-start-column="5" selection-end-line="971" selection-end-column="5" />
               <folding>
                 <element signature="e#40171#40172#0" expanded="true" />
@@ -147,7 +152,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/operation/DisplayOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="399">
               <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
@@ -156,7 +161,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/operation/IOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="252">
               <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -168,7 +173,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/operation/FindOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
+            <state relative-caret-position="630">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
@@ -177,8 +182,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/operation/ReturnOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+            <state relative-caret-position="273">
+              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -242,7 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,14 +282,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573354435719" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20191023LinkedList" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20191028" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -337,6 +342,8 @@
       <workItem from="1573284196811" duration="7951000" />
       <workItem from="1573350513242" duration="3906000" />
       <workItem from="1573354508823" duration="22000" />
+      <workItem from="1581664660220" duration="69000" />
+      <workItem from="1581676332532" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1572534609712</created>
@@ -370,7 +377,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39955000" />
+    <option name="totallyTimeSpent" value="40034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -380,7 +387,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17542441" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18027486" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -481,7 +488,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
+        <state relative-caret-position="630">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -491,21 +498,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/book/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
+        <state relative-caret-position="1071">
           <caret line="71" column="59" selection-start-line="71" selection-start-column="59" selection-end-line="71" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/operation/ExitOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="315">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/operation/BorrowOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
+        <state relative-caret-position="882">
           <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -515,7 +522,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24050">
+        <state relative-caret-position="19383">
           <caret line="971" column="5" selection-start-line="971" selection-start-column="5" selection-end-line="971" selection-end-column="5" />
           <folding>
             <element signature="e#40171#40172#0" expanded="true" />
@@ -526,14 +533,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/operation/DisplayOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="399">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/operation/IOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="252">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -543,15 +550,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/operation/FindOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
+        <state relative-caret-position="630">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/operation/ReturnOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        <state relative-caret-position="273">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,8 @@
 package p2020_01.P20200116;
 
 
+import java.util.Scanner;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -9,8 +11,26 @@ package p2020_01.P20200116;
  * Time: 21:16
  */
 public class P20200116 {
-
+    //sugd378374jshue73463648346
     public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        int max = 0, count = 0, end = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if(str.charAt(i) >='0' && str.charAt(i) <='9') {
+                count++;
+                if(max < count) {
+                    max = count;
+                    end = i;
+                }
+            } else {
+                count = 0;
+            }
+        }
+        System.out.println(str.substring(end-max+1,end+1));
+    }
+
+    public static void main1(String[] args){
         System.out.println(countWays(4));;
     }
 

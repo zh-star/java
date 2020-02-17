@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d578eba1-4223-44f4-8cba-4547396abd4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191017/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191017/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191030/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191030/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191031A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191031A/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191111/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191111/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191115/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191115/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191116/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191116/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191118/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191118/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191123/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191123/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191125/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191125/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191126/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191126/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191126/src/package1/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20191126/src/package1/TestSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一提/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一提/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一提/src/p2019_12/p20191215/TestDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一提/src/p2019_12/p20191215/TestDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一提/src/p2020_01/P20200116/P20200116.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一提/src/p2020_01/P20200116/P20200116.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +56,12 @@
     <session id="1457330468">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -79,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
+            <state relative-caret-position="420">
               <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
             </state>
           </provider>
@@ -88,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DoubleList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3822">
+            <state relative-caret-position="3087">
               <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="155" selection-end-column="5" />
               <folding>
                 <element signature="e#209#210#0" expanded="true" />
@@ -101,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DlinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="49">
+              <caret line="16" selection-start-line="16" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -146,8 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,13 +176,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572355384577" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JAVA课件/课堂笔记/抽象类接口示例代码" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20191030" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -214,6 +228,7 @@
       <workItem from="1572310776179" duration="5410000" />
       <workItem from="1572409180766" duration="372000" />
       <workItem from="1572421106945" duration="19000" />
+      <workItem from="1581676344050" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1572355361564</created>
@@ -226,13 +241,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13670000" />
+    <option name="totallyTimeSpent" value="13716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.04122878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16168149" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -275,14 +289,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
+        <state relative-caret-position="420">
           <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DoubleList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3822">
+        <state relative-caret-position="3087">
           <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="155" selection-end-column="5" />
           <folding>
             <element signature="e#209#210#0" expanded="true" />
@@ -293,8 +307,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DlinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="49">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
         </state>
       </provider>
     </entry>

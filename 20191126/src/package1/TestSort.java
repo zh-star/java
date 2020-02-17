@@ -126,12 +126,42 @@ public class TestSort {
             }
         }
     }
+    //5.冒泡排序: 是相邻个两个进行比较进行比较 ，循环控制比较次数O（n^2）O(1) 稳定
+    public static void bubbleSort(int[] array) {
+        boolean flag = false;
+        for (int i = 0; i < array.length-1; i++) {
+            flag = false;
+            for (int j = 0; j < array.length -1-i; j++) {
+                if(array[j] > array[j+1]) {
+                    int temp = array[j];
+                    array[j] = array[j+1];
+                    array[j+1] = temp;
+                    flag = true;
+                }
+            }
+            if(!flag) {
+                break;
+            }
 
+        }
+    }
 
     //快速排序  递归版本
     // O(N*log(N)) 空间复杂度：O(log(n))  不稳定
-    public static int partition(int[] array,int low,int high) {
 
+    public static void quickSort(int[] array,int low,int high) {
+        int par = partition(array,low,high);
+
+        if(par > low + 1) {
+            quickSort(array,low,par-1);
+        }
+        if(par < high - 1) {
+            quickSort(array,par+1,high);
+        }
+    }
+    // 一次快排 ： 将最左端的放到temp中，先从后找比temp小的，交换，再从前面找比他大的交换，最终到一个中间值，就是有序值
+    // 如果中间值，左边最后一个的右边，则左边就结束，再排序右边
+    public static int partition(int[] array,int low,int high) {
         int temp = array[low];
         while(low < high) {
             //从后面找比基准值小的值
@@ -153,16 +183,7 @@ public class TestSort {
         array[low] = temp;
         return low;
     }
-    public static void quickSort(int[] array,int low,int high) {
-        int par = partition(array,low,high);
 
-        if(par > low + 1) {
-            quickSort(array,low,par-1);
-        }
-        if(par < high - 1) {
-            quickSort(array,par+1,high);
-        }
-    }
 
     public static void threeNumMid(int[] array,int low,int high) {
 

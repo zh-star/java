@@ -10,7 +10,28 @@ import java.util.Stack;
  * Date: 2019 -12
  * Time: 16:57
  */
+class myStack {
+    int[] val;
+    int top;
+
+    public myStack(int[] val,int top) {
+        this.val = val;
+        this.top = top;
+    }
+}
 public class TestDemo2 {
+    private static myStack mystack = null;
+    public void push(int date) {
+        mystack.val[mystack.top] = date;
+        mystack.top++;
+    }
+    public int pop() {
+        return mystack.val[mystack.top];
+    }
+}
+public class TestDemo2 {
+
+
     //1. 读入一个字符串str，输出字符串str中的连续最长的数字串
     //输入
     //abcd12345ed125ss123456789
