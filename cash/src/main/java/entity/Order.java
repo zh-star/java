@@ -19,7 +19,7 @@ public class Order {
     private String account_name;//用户名
     private String create_time;//创建时间
     private String finish_time;//完成时间
-    private String actual_amount;//
+    private Integer actual_amount;//
     private Integer total_money;//总金额
 
     private OrderStatus order_status; // 状态陈述，
@@ -68,15 +68,21 @@ public class Order {
         this.finish_time = finish_time;
     }
 
-    public String getActual_amount() {
+    //浏览订单会用到
+    public double getActual_amount() {
+        return actual_amount*1.0 / 100;
+    }
+    public Integer getActualAmountInt() {
         return actual_amount;
     }
-
-    public void setActual_amount(String actual_amount) {
+    public void setActual_amount(Integer actual_amount) {
         this.actual_amount = actual_amount;
     }
 
-    public Integer getTotal_money() {
+    public double getTotal_money() {
+        return total_money*1.0 / 100;
+    }
+    public Integer getTotalMoneyInt() {
         return total_money;
     }
 
@@ -91,4 +97,11 @@ public class Order {
     public void setOrder_status(OrderStatus order_status) {
         this.order_status = order_status;
     }
+
+    // 优惠金额
+    public double getDiscount() {
+        //return (this.getTotal_money() - this.getActualAmountInt())*1.00 / 100;
+        return Double.parseDouble(String.format("%.2f",this.getTotal_money() - this.getActual_amount()));
+    }
 }
+
