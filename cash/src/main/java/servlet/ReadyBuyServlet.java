@@ -107,7 +107,9 @@ public class ReadyBuyServlet extends HttpServlet {
         resp.getWriter().println("<p>" + "【总金额】： " + order.getTotal_money() + "</p>" );
         resp.getWriter().println("<p>" + "【优惠金额】： " + order.getDiscount() + "</p>");
         resp.getWriter().println("<p>" + "【应支付金额】： " + order.getActual_amount() + "</p>");
+        //如果使用<a href= > A标签，只会以doget()方式请求
         resp.getWriter().println("<a href=\"buyGoodServlet\">确认</a>");
+
         resp.getWriter().println("<a href=\"index.html\">取消</a>");
         resp.getWriter().println("</html>");
         session.setAttribute("order",order);
