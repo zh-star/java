@@ -10,12 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b52b68-9a55-41bb-831f-2f28d530508c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlet/BuyGoodsServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ReadyBuyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/ReadyBuyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entity/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/hello-bit-idea/WEB-INF/classes/entity/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/hello-bit-idea/orderBrowse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/hello-bit-idea/orderBrowse.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -123,11 +118,11 @@
     <session id="713444926">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -423,6 +418,7 @@
       <workItem from="1581948898438" duration="4726000" />
       <workItem from="1581987476786" duration="1243000" />
       <workItem from="1582205306742" duration="599000" />
+      <workItem from="1582293116919" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1581955253079</created>
@@ -435,7 +431,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74452000" />
+    <option name="totallyTimeSpent" value="75051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,8 +443,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.44305557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
