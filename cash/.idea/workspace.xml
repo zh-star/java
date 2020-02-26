@@ -118,22 +118,23 @@
     <session id="713444926">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="413" />
+          <entry key="java" value="418" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="413" />
+          <entry key="JAVA" value="418" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -166,8 +167,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlet/BuyGoodsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="363">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -254,7 +255,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="504" />
     <option name="y" value="81" />
     <option name="width" value="1167" />
@@ -419,6 +420,7 @@
       <workItem from="1581987476786" duration="1243000" />
       <workItem from="1582205306742" duration="599000" />
       <workItem from="1582293116919" duration="599000" />
+      <workItem from="1582386336637" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1581955253079</created>
@@ -427,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581955253079</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="git">
+      <created>1582386357034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582386357034</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75051000" />
+    <option name="totallyTimeSpent" value="75108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,8 +773,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/BuyGoodsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="363">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
