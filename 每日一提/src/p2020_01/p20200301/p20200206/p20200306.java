@@ -35,7 +35,6 @@ public class p20200306 {
         } else {
             System.out.println(maxSum);
         }
-
     }
 
 
