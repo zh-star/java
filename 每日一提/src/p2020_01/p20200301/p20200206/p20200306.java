@@ -38,7 +38,6 @@ public class p20200306 {
 
     }
 
-
     // 找负数的位置
     private static int findSum(int[] array, int left ,int right) {
         for (int i = left; i < right ; i++) {
