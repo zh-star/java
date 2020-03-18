@@ -22,7 +22,8 @@ public class Main {
         for(int i = 0; i < value.length; i++) {
             set.add(value[i]);
         }
-        
+
+
         int n = 0;
         int sum = 0;
         //System.out.println(Arrays.toString(value));
