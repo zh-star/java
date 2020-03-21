@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12d75a31-b8a2-4f93-be52-79b6db7756d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../20191017/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191017/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191028/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191028/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191030/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191030/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20190930LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20190930LinkedList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191010LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191010LinkedList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20191023LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191023LinkedList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20191031A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191031A/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191111/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191111/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191115/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191115/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191116/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191116/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191118/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191118/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191123/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191123/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191125/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191125/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191126/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191126/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191126/src/package1/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20191126/src/package1/TestSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../每日一提/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一提/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一提/src/p2019_12/p20191215/TestDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一提/src/p2019_12/p20191215/TestDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一提/src/p2020_01/P20200116/P20200116.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一提/src/p2020_01/P20200116/P20200116.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,14 +49,14 @@
     <session id="-1040686739">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -140,8 +129,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
     <option name="width" value="1890" />
     <option name="height" value="930" />
   </component>
@@ -150,13 +139,32 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="20191018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20191018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20191018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20191018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571490871063" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20191017" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -207,6 +215,7 @@
       <workItem from="1571791934867" duration="365000" />
       <workItem from="1581676415692" duration="599000" />
       <workItem from="1581685051424" duration="232000" />
+      <workItem from="1584594609929" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="提交git">
       <created>1571387926663</created>
@@ -233,13 +242,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21461000" />
+    <option name="totallyTimeSpent" value="21479000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24656427" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24597855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

@@ -342,7 +342,7 @@ public class LinkedList {
         int lenB = 0;
         Node pL = headA;//长的
         Node pS = headB;//短的
-
+        // 1.求出两个链表的长度
         while (pL != null) {
             lenA++;
             pL = pL.next;
@@ -352,7 +352,7 @@ public class LinkedList {
             lenB++;
             pS = pS.next;
         }
-
+        // 如果链表A长，
         int len = lenA - lenB;
         if(len < 0) {
             pL = headB;
