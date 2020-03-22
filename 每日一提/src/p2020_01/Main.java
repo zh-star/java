@@ -1,8 +1,8 @@
 package p2020_01;
 
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
+import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -12,6 +12,26 @@ import java.util.Set;
  * Time: 18:50
  */
 public class Main {
+    // 3 2
+    // 3 5 7
+    // 1 2
+    public static void main(String[] args){
+//        Scanner in = new Scanner(System.in);
+//        int x = in.nextInt();
+//        int y = in.nextInt();
+        Set<Integer> setNum = new HashSet<>();
+        setNum.add(1);
+        setNum.add(5);
+        setNum.add(6);
+        setNum.size();
+        setNum.contains(1);
+        for (Integer i:setNum) {
+            System.out.println(i);
+        }
+        List<Integer> list = new ArrayList<>(setNum);
+        System.out.println(list.get(2));
+
+    }
     static int  threeSum(String numstr) {
         String[] value = numstr.split(",");
         if(value.length == 2) {
@@ -45,7 +65,7 @@ public class Main {
     /******************************结束写代码******************************/
 
 
-    public static void main(String[] args){
+    public static void main1(String[] args){
         Scanner in = new Scanner(System.in);
         int res;
 
