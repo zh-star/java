@@ -13,6 +13,7 @@ import java.util.Scanner;
  * Time: 18:55
  */
 public class Main快手 {
+
     // A
     //AB A
     //ABAC ABA
