@@ -51,6 +51,7 @@ public class Main快手 {
         }
         System.out.println(sb);
     }
+
     public static void main2(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.next();
