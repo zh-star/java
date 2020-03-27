@@ -75,6 +75,7 @@ public class Main快手 {
         System.out.println(stringBuffer);
     }
 
+
     // 找出数组中大于这个元素的数的个数是1的数？
     public static void main3(String[] args){
         Scanner in = new Scanner(System.in);
