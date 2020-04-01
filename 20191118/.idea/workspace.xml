@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c89802d5-cd41-4ce2-82d9-e4523dac2f2f" name="Default Changelist" comment="git">
-      <change beforePath="$PROJECT_DIR$/../20191017/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191017/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191018/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191028/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191028/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一提/src/p2020_01/Main携程.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20191030/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191030/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191031A/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191031A/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20191111/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191111/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191115/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191115/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../20191116/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191116/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191123/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191123/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191125/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191125/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191126/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20191126/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20191126/src/package1/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../20191126/src/package1/TestSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../每日一提/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一提/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一提/src/p2019_12/p20191215/TestDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一提/src/p2019_12/p20191215/TestDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一提/src/p2020_01/P20200116/P20200116.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一提/src/p2020_01/P20200116/P20200116.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,8 +48,8 @@
     <session id="-911600299">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
@@ -69,7 +58,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -101,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
+            <state relative-caret-position="760">
               <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
@@ -123,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/package1/TestDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state relative-caret-position="680">
               <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
@@ -159,8 +148,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
     <option name="width" value="1890" />
     <option name="height" value="930" />
   </component>
@@ -186,15 +175,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574604067894" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../cash" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20191125" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -267,6 +256,7 @@
       <workItem from="1574678752897" duration="614000" />
       <workItem from="1581664902122" duration="610000" />
       <workItem from="1581685052021" duration="264000" />
+      <workItem from="1585737316859" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1574084096630</created>
@@ -342,12 +332,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50853000" />
+    <option name="totallyTimeSpent" value="50860000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19805983" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20040214" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,14 +436,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
+        <state relative-caret-position="760">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package1/TestDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="680">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
