@@ -119,6 +119,7 @@ public class Main快手 {
 
 
     private static int[] isLiang(String s) {
+
         int[] arr = new int[3];
         int n = Integer.parseInt(s.charAt(2)+"");
         //System.out.println(n);// 1
