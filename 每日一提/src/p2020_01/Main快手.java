@@ -13,6 +13,12 @@ import java.util.Scanner;
  * Time: 18:55
  */
 public class Main快手 {
+    public static void main(String[] args){
+        int a = 'a';
+        String ch = a+"";
+        StringBuffer sb = new StringBuffer();
+        StringBuilder a1 = new StringBuilder();
+    }
 
     // A
     //AB A
@@ -98,7 +104,7 @@ public class Main快手 {
 
 
     //15166667234,15188887234
-    public static void main(String[] args) {
+    public static void main4(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
         String[] arr = s.split(",");
